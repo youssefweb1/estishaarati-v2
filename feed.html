@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إستشاراتي</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> 
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-[#F5F5F5]">
+  
+  <aside id="separator-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+    <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+      <ul class="space-y-2 font-medium">
+        <li>
+          <a href="#" class="flex items-center justify-center p-2">
+            <img src="./imgs/logo.png" alt="Estisharati">
+          </a>
+        </li>
+      </ul>
+      <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+          <li>
+            <a href="./index.html" class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/home.svg">
+                <span class="ms-3">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="./feed.html" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/feed.svg">
+                <span class="ms-3">Feed</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/profile.svg">
+                <span class="ms-3">My Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="./appointments.html" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/appointments.svg">
+                <span class="ms-3">Appointments</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/courses.svg">
+                <span class="ms-3">My Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/consultants.svg">
+                <span class="ms-3">All Consultants</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/subscriptions.svg">
+                <span class="ms-3">Subscriptions</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/saved.svg">
+                <span class="ms-3">Saved</span>
+            </a>
+          </li>
+      </ul>
+      <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+          <li>
+            <a href="#" class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/contact.svg">
+                <span class="ms-3">Contact us</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/faq.svg">
+                <span class="ms-3">FAQ</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/terms.svg">
+                <span class="ms-3">Terms and conditions</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/lang.svg">
+                <span class="ms-3">Language</span>
+            </a>
+          </li>
+      </ul>
+      <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+        <li>
+          <a href="#" class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+              <img src="./imgs/logout.svg">
+              <span class="ms-3">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="px-5 xl:px-10 sm:ml-64">
+
+    <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+      <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar" aria-controls="separator-sidebar" type="button" class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+        </svg>
+      </button>
+
+      <div class="relative flex-1">
+        <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+        <input type="search" placeholder="Search..." class="px-4 pl-12 w-full border-gray-300 bg-gray-50 outline-none focus:outline-none focus:border-gray-400 rounded-full lg:max-w-[70%]">
+      </div>
+
+      <div class="flex gap-5 justify-between items-center">
+        <a href="#">
+          <img src="./imgs/notifications.svg">
+        </a>
+        <a href="#">
+          <img src="./imgs/profile-pic.png">
+        </a>
+      </div>
+
+    </header>
+
+    <section class="max-w-[900px] my-0 py-0 mx-auto flex flex-col gap-6 pb-6">
+      <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+        <div class="flex gap-4 items-center">
+          <div class="w-[50px] h-[50px] rounded-full overflow-hidden grid place-items-center">
+            <img src="./imgs/profile-pic.png">
+          </div>
+          <input type="text" placeholder="What are you thinking?" class="flex-1 rounded-full border border-gray-400 text-sm bg-gray-100 opacity-80">
+        </div>
+        <div class="flex justify-between gap-5">
+          <button class="flex gap-2 items-center">
+            <img src="./imgs/img.svg">
+            <span>Image / Video</span>
+          </button>
+          <button class="flex gap-2 items-center">
+            <img src="./imgs/feeling.svg">
+            <span>Feeling</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+        <div class="flex gap-4 items-start">
+          <div class="w-[50px] h-[50px] rounded-full overflow-hidden grid place-items-center">
+            <img src="./imgs/profile-pic.png">
+          </div>
+          <div class="flex gap-3 flex-col">
+            <div class="flex justify-between items-center">
+              <h1 class="font-medium text-lg">John Doe</h1>
+              <button>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </button>
+            </div>
+            <p class="leading-[1.6] text-gray-500 text-sm">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet tenetur, consectetur veniam facilis! Temporibus numquam quaerat et praesentium!
+            </p>
+            <div class="flex justify-between gap-5">
+              <div class="flex gap-5">
+                <button class="flex gap-1 items-center">
+                  <i class="fa-regular fa-heart text-main"></i>
+                  <span>2</span>
+                </button>
+                <button class="flex gap-1 items-center">
+                  <i class="fa-regular fa-comment text-main"></i>
+                  <span>1</span>
+                </button>
+              </div>
+              <button>
+                  <i class="fa-regular fa-bookmark"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+        <div class="flex gap-4 items-start">
+          <div class="w-[50px] h-[50px] rounded-full overflow-hidden grid place-items-center">
+            <img src="./imgs/profile-pic.png">
+          </div>
+          <div class="flex gap-3 flex-col">
+            <div class="flex justify-between items-center">
+              <h1 class="font-medium text-lg">John Doe</h1>
+              <button>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </button>
+            </div>
+            <p class="leading-[1.6] text-gray-500 text-sm">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet tenetur, consectetur veniam facilis! Temporibus numquam quaerat et praesentium!
+            </p>
+            <div class="w-full overflow-hidden rounded-md grid place-items-center">
+              <img src="./imgs/post.jpg" class="w-full">
+            </div>
+            <div class="flex justify-between gap-5">
+              <div class="flex gap-5">
+                <button class="flex gap-1 items-center">
+                  <i class="fa-regular fa-heart text-main"></i>
+                  <span>2</span>
+                </button>
+                <button class="flex gap-1 items-center">
+                  <i class="fa-regular fa-comment text-main"></i>
+                  <span>1</span>
+                </button>
+              </div>
+              <button>
+                  <i class="fa-regular fa-bookmark"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>

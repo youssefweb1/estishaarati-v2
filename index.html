@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إستشاراتي</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> 
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-[#F5F5F5]">
+
+  <aside id="separator-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+      <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+        <ul class="space-y-2 font-medium">
+          <li>
+            <a href="#" class="flex items-center justify-center p-2">
+              <img src="./imgs/logo.png" alt="Estisharati">
+            </a>
+          </li>
+        </ul>
+        <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+            <li>
+              <a href="./index.html" class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/home.svg">
+                  <span class="ms-3">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="./feed.html" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/feed.svg">
+                  <span class="ms-3">Feed</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/profile.svg">
+                  <span class="ms-3">My Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="./appointments.html" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/appointments.svg">
+                  <span class="ms-3">Appointments</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/courses.svg">
+                  <span class="ms-3">My Courses</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/consultants.svg">
+                  <span class="ms-3">All Consultants</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/subscriptions.svg">
+                  <span class="ms-3">Subscriptions</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/saved.svg">
+                  <span class="ms-3">Saved</span>
+              </a>
+            </li>
+        </ul>
+        <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+            <li>
+              <a href="#" class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/contact.svg">
+                  <span class="ms-3">Contact us</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/faq.svg">
+                  <span class="ms-3">FAQ</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/terms.svg">
+                  <span class="ms-3">Terms and conditions</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                  <img src="./imgs/lang.svg">
+                  <span class="ms-3">Language</span>
+              </a>
+            </li>
+        </ul>
+        <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+          <li>
+            <a href="#" class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                <img src="./imgs/logout.svg">
+                <span class="ms-3">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  </aside>
+
+  <main class="px-5 xl:px-10 sm:ml-64">
+
+    <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+      <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar" aria-controls="separator-sidebar" type="button" class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+        </svg>
+      </button>
+
+      <div class="relative flex-1">
+        <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+        <input type="search" placeholder="Search..." class="px-4 pl-12 w-full border-gray-300 bg-gray-50 outline-none focus:outline-none focus:border-gray-400 rounded-full lg:max-w-[70%]">
+      </div>
+
+      <div class="flex gap-5 justify-between items-center">
+        <a href="#">
+          <img src="./imgs/notifications.svg">
+        </a>
+        <a href="#">
+          <img src="./imgs/profile-pic.png">
+        </a>
+      </div>
+    </header>
+
+    <section class="flex flex-col xl:flex-row justify-between gap-8 py-0">
+      <div class="rounded-md shadow-sm bg-white p-6 flex justify-center items-center gap-8 flex-1">
+        <div style="flex: 2">
+          <h1 class="font-semibold text-lg mb-4">Get special Offer on packages!</h1>
+          <p class="mb-4 text-gray-600">Exclusive offers on packages</p>
+          <p class="mb-4 text-gray-600">
+            up to <span class="text-2xl font-bold text-main ml-1">40%</span>
+          </p>
+          <a class="block secondary-btn" href="#">Packages</a>
+        </div>
+        <img class="flex-1" src="./imgs/offer.png">
+      </div>
+      <div class="rounded-md shadow-sm bg-white p-6 flex justify-center items-center gap-8 flex-1">
+        <div style="flex: 2">
+          <h1 class="font-semibold text-lg mb-4">100% Free Tests</h1>
+          <p class="mb-4 text-main">Lorem ipsum dolor sit, amit?</p>
+          <p class="mb-4 text-gray-600">
+            Take the test and see the results!
+          </p>
+          <a class="main-btn block w-fit py-2 px-10 text-sm" href="#">Take test</a>
+        </div>
+        <div class="flex-1 flex flex-col gap-8 justify-center items-center">
+          <a class="block secondary-btn" href="#">Tests</a>
+          <img class="w-full" src="./imgs/tests.png">
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white px-5 shadow-sm">
+      <div>
+        <h1 class="inline-block font-semibold text-xl">Courses</h1>
+        <a class="secondary-btn inline-block py-1 ml-4" href="#">Check All Courses</a>
+      </div>
+      <div class="flex flex-col gap-5 lg:flex-row justify-between items-center py-6">
+        <div class="flex justify-center items-center gap-2 flex-wrap">
+          <div class="px-4 py-1 transition-all duration-200 text-gray-400 font-medium text-sm hover:bg-main hover:text-white rounded-full w-fit cat-active cursor-pointer">All</div>
+          <div class="px-4 py-1 transition-all duration-200 text-gray-400 font-medium text-sm hover:bg-main hover:text-white rounded-full w-fit cursor-pointer">Mental Health</div>
+          <div class="px-4 py-1 transition-all duration-200 text-gray-400 font-medium text-sm hover:bg-main hover:text-white rounded-full w-fit cursor-pointer">Category 3</div>
+          <div class="px-4 py-1 transition-all duration-200 text-gray-400 font-medium text-sm hover:bg-main hover:text-white rounded-full w-fit cursor-pointer">Category 4</div>
+        </div>
+        <div class="flex justify-between items-center gap-3">
+          <div class="courses sw-btn-prev">
+            <i class="fa-solid fa-arrow-left absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+          </div>
+          <div class="courses sw-btn-next">
+            <i class="fa-solid fa-arrow-right absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+          </div>
+        </div>
+      </div>
+      <div class="courses-swiper overflow-hidden">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-1.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-2.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-3.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-1.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-2.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-3.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-1.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-2.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-3.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-1.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+          <div class="swiper-slide flex flex-col gap-2">
+            <div class="w-full grid place-items-center">
+              <img src="./imgs/courses-2.jpg" class="w-full rounded-md">
+            </div>
+            <h2 class="-mb-1 text-sm">Pathological attachments</h2>
+            <p class="m-0 text-xs">By Ms. Nevin Nabil</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white px-5 shadow-sm">
+      <div class="flex flex-col lg:flex-row items-center justify-between gap-5 mb-6">
+        <div class="self-start">
+          <h1 class="inline-block font-semibold text-xl mr-4">Consultants</h1>
+          <a class="secondary-btn inline-block py-1" href="#">Check All Consultants</a>
+        </div>
+        <div class="flex justify-between items-center gap-3">
+          <div class="consul sw-btn-prev">
+            <i class="fa-solid fa-arrow-left absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+          </div>
+          <div class="consul sw-btn-next">
+            <i class="fa-solid fa-arrow-right absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+          </div>
+        </div>
+      </div>
+      <div class="consul-swiper overflow-hidden">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide flex flex-col md:flex-row gap-5 md:gap-3 shadow-md rounded-md p-4 items-center">
+            <div class="grid place-items-center">
+              <img src="./imgs/consultant-1.jpg" class="max-w-[130px] w-full rounded-md">
+            </div>
+            <div class="flex flex-1 flex-col gap-3">
+              <div>
+                <h1 class="font-medium text-lg mb-1">John Doe</h1>
+                <p class="text-sm text-gray-500 font-light">Psychological and family consultant</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h2>Rating</h2>
+                <div class="flex gap-1 itmes-center">
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                </div>
+              </div>
+              <div class="flex items-center justify-between">
+                <h2>Consultation Price</h2>
+                <h2 class="text-main text-xl font-semibold">$180</h2>
+              </div>
+              <a href="#" class="main-btn block py-1 text-center">Book now</a>
+            </div>
+          </div>
+          <div class="swiper-slide flex flex-col md:flex-row gap-5 md:gap-3 shadow-md rounded-md p-4 items-center">
+            <div class="grid place-items-center">
+              <img src="./imgs/consultant-2.jpg" class="max-w-[130px] w-full rounded-md">
+            </div>
+            <div class="flex flex-1 flex-col gap-3">
+              <div>
+                <h1 class="font-medium text-lg mb-1">John Doe</h1>
+                <p class="text-sm text-gray-500 font-light">Psychological and family consultant</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h2>Rating</h2>
+                <div class="flex gap-1 itmes-center">
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                </div>
+              </div>
+              <div class="flex items-center justify-between">
+                <h2>Consultation Price</h2>
+                <h2 class="text-main text-xl font-semibold">$180</h2>
+              </div>
+              <a href="#" class="main-btn block py-1 text-center">Book now</a>
+            </div>
+          </div>
+          <div class="swiper-slide flex flex-col md:flex-row gap-5 md:gap-3 shadow-md rounded-md p-4 items-center">
+            <div class="grid place-items-center">
+              <img src="./imgs/consultant-1.jpg" class="max-w-[130px] w-full rounded-md">
+            </div>
+            <div class="flex flex-1 flex-col gap-3">
+              <div>
+                <h1 class="font-medium text-lg mb-1">John Doe</h1>
+                <p class="text-sm text-gray-500 font-light">Psychological and family consultant</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h2>Rating</h2>
+                <div class="flex gap-1 itmes-center">
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                </div>
+              </div>
+              <div class="flex items-center justify-between">
+                <h2>Consultation Price</h2>
+                <h2 class="text-main text-xl font-semibold">$180</h2>
+              </div>
+              <a href="#" class="main-btn block py-1 text-center">Book now</a>
+            </div>
+          </div>
+          <div class="swiper-slide flex flex-col md:flex-row gap-5 md:gap-3 shadow-md rounded-md p-4 items-center">
+            <div class="grid place-items-center">
+              <img src="./imgs/consultant-2.jpg" class="max-w-[130px] w-full rounded-md">
+            </div>
+            <div class="flex flex-1 flex-col gap-3">
+              <div>
+                <h1 class="font-medium text-lg mb-1">John Doe</h1>
+                <p class="text-sm text-gray-500 font-light">Psychological and family consultant</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h2>Rating</h2>
+                <div class="flex gap-1 itmes-center">
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                </div>
+              </div>
+              <div class="flex items-center justify-between">
+                <h2>Consultation Price</h2>
+                <h2 class="text-main text-xl font-semibold">$180</h2>
+              </div>
+              <a href="#" class="main-btn block py-1 text-center">Book now</a>
+            </div>
+          </div>
+          <div class="swiper-slide flex flex-col md:flex-row gap-5 md:gap-3 shadow-md rounded-md p-4 items-center">
+            <div class="grid place-items-center">
+              <img src="./imgs/consultant-1.jpg" class="max-w-[130px] w-full rounded-md">
+            </div>
+            <div class="flex flex-1 flex-col gap-3">
+              <div>
+                <h1 class="font-medium text-lg mb-1">John Doe</h1>
+                <p class="text-sm text-gray-500 font-light">Psychological and family consultant</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h2>Rating</h2>
+                <div class="flex gap-1 itmes-center">
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                </div>
+              </div>
+              <div class="flex items-center justify-between">
+                <h2>Consultation Price</h2>
+                <h2 class="text-main text-xl font-semibold">$180</h2>
+              </div>
+              <a href="#" class="main-btn block py-1 text-center">Book now</a>
+            </div>
+          </div>
+          <div class="swiper-slide flex flex-col md:flex-row gap-5 md:gap-3 shadow-md rounded-md p-4 items-center">
+            <div class="grid place-items-center">
+              <img src="./imgs/consultant-2.jpg" class="max-w-[130px] w-full rounded-md">
+            </div>
+            <div class="flex flex-1 flex-col gap-3">
+              <div>
+                <h1 class="font-medium text-lg mb-1">John Doe</h1>
+                <p class="text-sm text-gray-500 font-light">Psychological and family consultant</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h2>Rating</h2>
+                <div class="flex gap-1 itmes-center">
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                  <i class="fa-solid fa-star text-main"></i>
+                </div>
+              </div>
+              <div class="flex items-center justify-between">
+                <h2>Consultation Price</h2>
+                <h2 class="text-main text-xl font-semibold">$180</h2>
+              </div>
+              <a href="#" class="main-btn block py-1 text-center">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const coursesSwiper = new Swiper('.courses-swiper', {
+      navigation: {
+        nextEl: '.courses.sw-btn-next',
+        prevEl: '.courses.sw-btn-prev',
+      },
+      spaceBetween: 20,
+      slidesPerView: 2,
+      breakpoints: {
+        1024: {
+          slidesPerView: 4
+        },
+        1280: {
+          slidesPerView: 5
+        },
+        1536: {
+          slidesPerView: 6
+        },
+        1700: {
+          slidesPerView: 7
+        }
+      },
+    })
+
+    const consulSwiper = new Swiper('.consul-swiper', {
+      navigation: {
+        nextEl: '.consul.sw-btn-next',
+        prevEl: '.consul.sw-btn-prev',
+      },
+      spaceBetween: 20,
+      slidesPerView: 1,
+      breakpoints: {
+        1024: {
+          slidesPerView: 2
+        },
+        1536: {
+          slidesPerView: 3
+        }
+      },
+    })
+  </script>
+</body>
+</html>
