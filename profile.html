@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/css/pagedone.css " rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/js/pagedone.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body class="bg-[#F5F5F5]">
+
+    <aside id="separator-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+            <ul class="space-y-2 font-medium">
+                <li>
+                    <a href="#" class="flex items-center justify-center p-2">
+                        <img src="./imgs/logo.png" alt="Estisharati">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="./index.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/home.svg">
+                        <span class="ms-3">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./feed.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/feed.svg">
+                        <span class="ms-3">Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/profile.svg">
+                        <span class="ms-3">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./appointments.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/appointments.svg">
+                        <span class="ms-3">Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/courses.svg">
+                        <span class="ms-3">My Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/consultants.svg">
+                        <span class="ms-3">All Consultants</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/subscriptions.svg">
+                        <span class="ms-3">Subscriptions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/saved.svg">
+                        <span class="ms-3">Saved</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/contact.svg">
+                        <span class="ms-3">Contact us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/faq.svg">
+                        <span class="ms-3">FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/terms.svg">
+                        <span class="ms-3">Terms and conditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/lang.svg">
+                        <span class="ms-3">Language</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/logout.svg">
+                        <span class="ms-3">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="px-5 xl:px-10 sm:ml-64">
+
+        <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+            <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+                aria-controls="separator-sidebar" type="button"
+                class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="relative flex-1">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+                <input type="search" placeholder="Search..."
+                    class="px-4 pl-12 w-full border-gray-300 bg-gray-50 outline-none focus:outline-none focus:border-gray-400 rounded-full lg:max-w-[70%]">
+            </div>
+
+            <div class="flex gap-5 justify-between items-center">
+                <a href="#">
+                    <img src="./imgs/notifications.svg">
+                </a>
+                <a href="#">
+                    <img src="./imgs/profile-pic.png">
+                </a>
+            </div>
+        </header>
+
+        <section class="relative pt-40 pb-3 shadow-sm bg-white rounded-[15px] h-auto">
+            <img src="imgs/profile.png" alt="cover-image"
+                class="w-full absolute top-0 left-0 z-0 h-60 object-cover rounded-t-[15px]">
+            <div class="absolute top-5 right-5 cursor-pointer">
+                <svg width="40" height="39" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1.12524" y="0.360711" width="27.7934" height="28.276" rx="6" fill="#171725"
+                        fill-opacity="0.5" stroke="white" stroke-width="0.631579" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M19.6496 10.9629L20.5298 10.0677L18.5897 8.09473L17.7095 8.98986L19.6496 10.9629ZM18.5386 12.0926L16.5985 10.1196L9.34111 17.5003L8.89458 19.9274L11.2812 19.4733L18.5386 12.0926ZM21.6874 8.9853C22.2749 9.58283 22.2749 10.5516 21.6874 11.1491L12.2201 20.7771C12.1081 20.891 11.9649 20.9678 11.8092 20.9974L8.0562 21.7115C7.5135 21.8148 7.03818 21.3314 7.13972 20.7795L7.84189 16.9628C7.87102 16.8044 7.94654 16.6588 8.05854 16.5449L17.5258 6.91689C18.1133 6.31937 19.0659 6.31937 19.6535 6.91689L21.6874 8.9853ZM21.3463 21.7261H15.014C13.9716 21.7261 13.9716 20.1201 15.014 20.1201H21.3463C22.3886 20.1201 22.3886 21.7261 21.3463 21.7261Z"
+                        fill="white" />
+                </svg>
+
+            </div>
+            <div class="w-full max-w-7xl mx-auto px-6 md:px-8">
+                <div
+                    class="flex flex-col md:flex-col lg:flex-row items-center justify-cenitems-center sm:justify-start relative z-10 ">
+                    <img src="https://pagedone.io/asset/uploads/1705471668.png" alt="user-avatar-image"
+                        class="border-[10px] shadow-sm border-solid border-white rounded-full object-cover">
+                    <h3 class=" font-bold text-3xl text-gray-900 mt-5 lg:mt-20 lg:ml-5 "> Korkowski</h3>
+
+                    <div class="flex items-center  gap-10 mt-5 lg:mt-20 lg:ml-20">
+                        <div class="flex flex-col items-center">
+                            <p class="text-center font-semibold text-md  text[#92929D] mb-px">Following</p>
+                            <p class="text-[#000]">2,564</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <p class="text-center font-semibold text-md  text[#92929D] mb-px">Followers</p>
+                            <p class="text-[#000]">2,564</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="flex flex-col md:flex-row items-start gap-5">
+                <div class="w-full flex flex-col items-center justify-center gap-10 md:w-1/3">
+                    <div class="rounded-md shadow-sm bg-white flex flex-col justify-center items-start gap-8 w-full">
+                        <div class="flex p-5 pb-0 items-center justify-between w-full">
+                                <span class="font-semibold text-lg ">About Me</span>
+                                <svg width="22" height="6" viewBox="0 0 22 6" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.51921 0.578859C3.82349 0.578859 4.88083 1.57469 4.88083 2.8031C4.88083 4.03152 3.82349 5.02734 2.51921 5.02734C1.21492 5.02734 0.157593 4.03152 0.157593 2.8031C0.157593 1.57469 1.21492 0.578859 2.51921 0.578859ZM10.7849 0.578859C12.0892 0.578859 13.1465 1.57469 13.1465 2.8031C13.1465 4.03152 12.0892 5.02734 10.7849 5.02734C9.48062 5.02734 8.42329 4.03152 8.42329 2.8031C8.42329 1.57469 9.48062 0.578859 10.7849 0.578859ZM21.4121 2.8031C21.4121 1.57469 20.3548 0.578859 19.0505 0.578859C17.7462 0.578859 16.6889 1.57469 16.6889 2.8031C16.6889 4.03152 17.7462 5.02734 19.0505 5.02734C20.3548 5.02734 21.4121 4.03152 21.4121 2.8031Z"
+                                        fill="#92929D" />
+                                </svg>
+                        </div>
+                        <svg width="396" height="2" viewBox="0 0 396 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.605957H395.571V1.71808H0V0.605957Z" fill="#F1F1F5"/>
+                            </svg>
+
+                            <p class="text-[#44444F] p-5 pt-0" >
+                                “Pushing pixels and experiences in digital products for Sebostudio”
+                            </p>
+                    </div>
+
+                    <div class="rounded-md shadow-sm bg-white flex flex-col justify-center items-start gap-8 w-full">
+                        <div class="flex p-5 pb-0 items-center justify-between w-full">
+                                <span class="font-semibold text-lg ">Plan</span>
+                                <span class="font-semibold text-sm text-[#E77E5C]">Change</span>
+                                
+                        </div>
+                        <svg width="396" height="2" viewBox="0 0 396 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.605957H395.571V1.71808H0V0.605957Z" fill="#F1F1F5"/>
+                            </svg>
+
+                           <div class="flex flex-col items-center justify-center gap-2 w-full">
+                            <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M62.8092 17.3799C62.7925 17.0111 62.749 16.6483 62.7152 16.2835C62.673 15.9107 62.6053 15.5073 62.5464 15.123L62.523 14.9772L62.5005 14.8683L62.4562 14.6512L62.3664 14.218L62.3434 14.1099L62.3112 13.959L62.2953 13.8976L62.2322 13.6507L62.1048 13.1578C61.9265 12.5019 61.728 11.8464 61.4907 11.2C61.0224 9.90543 60.4304 8.63512 59.6851 7.44483C58.9368 6.25878 58.0537 5.14763 57.0376 4.20461C56.0216 3.26418 54.9015 2.47292 53.7368 1.89483C52.5783 1.30157 51.3901 0.906457 50.2404 0.658243C49.0898 0.401383 47.9748 0.30455 46.9191 0.290323C45.8625 0.275154 44.864 0.359883 43.9274 0.496487C42.0536 0.772368 40.4264 1.25622 39.0394 1.78629C37.6519 2.31549 36.5001 2.88282 35.5814 3.39866C35.121 3.65457 34.7187 3.89626 34.3749 4.11854C34.0298 4.33602 33.7436 4.53488 33.5143 4.69875C33.0551 5.02612 32.8258 5.22277 32.8258 5.22277L33.6651 5.10259C33.9366 5.06848 34.2713 5.02565 34.6648 4.9755C35.0576 4.93188 35.5062 4.8804 36.0063 4.83151C37.0077 4.7386 38.2138 4.64342 39.5729 4.61662C40.9306 4.59249 42.4426 4.62574 44.0134 4.82679C45.5809 5.02439 47.2107 5.39702 48.6946 6.05733C50.1857 6.7115 51.4845 7.66365 52.5068 8.9136C53.5274 10.1683 54.3066 11.7439 54.8431 13.5824C54.9738 14.0416 55.0991 14.512 55.2052 14.9959L55.2817 15.3616L55.3155 15.5221L55.3197 15.5475L55.3381 15.657L55.415 16.0928L55.4534 16.3107L55.4726 16.4192L55.4797 16.4936C55.4968 16.6951 55.5257 16.8763 55.5436 17.0928C55.5541 17.319 55.5792 17.5461 55.5879 17.77C55.5879 17.9931 55.6063 18.2179 55.5979 18.4393L55.5875 18.7705C55.5871 18.8816 55.5821 18.9914 55.5691 19.1004C55.4513 20.8497 54.9583 22.5265 54.0772 24.1229C53.207 25.7179 52.0001 27.2265 50.6314 28.5888C49.2615 29.9531 47.7496 31.1823 46.2343 32.287C44.7174 33.3922 43.1967 34.3775 41.7574 35.2613C40.3178 36.1455 38.9542 36.919 37.7321 37.6057C36.5081 38.2867 35.421 38.8678 34.5186 39.3482L31.6476 40.8559C31.6476 40.8559 31.9451 40.8801 32.5012 40.8844C32.7794 40.8874 33.1224 40.8866 33.5243 40.8728C33.9279 40.864 34.3895 40.839 34.9063 40.8018C35.9411 40.7309 37.1924 40.5904 38.6224 40.3548C40.0521 40.1165 41.6576 39.7732 43.3905 39.2708C45.1226 38.767 46.9847 38.1085 48.9098 37.2161C50.8332 36.322 52.8248 35.1922 54.7624 33.7009C56.6904 32.2084 58.5838 30.3314 60.0853 27.9356C60.8327 26.7418 61.4802 25.4227 61.9402 24.0079C62.4119 22.5987 62.6972 21.1032 62.7996 19.6098C62.8163 19.4229 62.8238 19.2361 62.8259 19.0498L62.8368 18.4907C62.8439 18.118 62.8192 17.7501 62.8092 17.3799Z" fill="#919191"/>
+                                <path d="M5.47351 25.1646C5.62307 26.1758 5.85745 27.1755 6.17872 28.1354C6.3099 28.5388 6.44818 28.9334 6.60819 29.3209C7.00842 30.2917 7.49472 31.2095 8.02905 32.0627C9.53054 34.4584 11.4264 36.3358 13.354 37.8283C15.2917 39.3197 17.2845 40.449 19.2079 41.3431C21.1335 42.2361 22.9955 42.8942 24.728 43.3979C25.3564 43.5803 30.6316 41.8694 30.3868 41.7332C29.1648 41.0466 27.8016 40.1429 26.3615 39.2583C25.7495 38.8825 22.7565 36.9195 21.885 36.2843C20.3698 35.1796 18.8574 33.9759 17.4875 32.6122C16.1193 31.2498 13.349 27.3251 13.1117 25.1646" fill="#919191"/>
+                                <path d="M29.4965 11.4161C29.893 11.7133 30.2435 12.0284 30.5339 12.3554C32.4669 14.5345 33.7574 16.5382 33.9191 19.4026H39.6142C39.3093 15.2942 37.7372 11.7353 34.852 8.72594C34.2859 8.14015 33.7148 7.61433 33.1341 7.14258C33.056 7.19618 32.9799 7.24987 32.9048 7.30386C31.7178 8.23305 30.5899 9.67243 29.4965 11.4161Z" fill="#919191"/>
+                                <path d="M34.6126 44.279L33.046 43.4389C32.769 43.2889 32.4832 43.1332 32.1866 42.9702C30.7369 43.7973 29.2229 44.3824 27.6445 44.7256C28.6861 44.9769 29.6695 45.1719 30.5807 45.3236C32.0107 45.5597 33.262 45.6999 34.2968 45.7708C34.8136 45.8082 35.2752 45.8329 35.6784 45.8416C36.0807 45.8554 36.4237 45.8564 36.7019 45.8538C37.258 45.8489 37.555 45.8251 37.555 45.8251L34.6841 44.3175L34.6126 44.279Z" fill="#919191"/>
+                                <path d="M33.1341 7.1431L33.1471 7.13403L33.1391 7.12793C33.0606 7.1843 32.9825 7.24287 32.9048 7.30354C32.98 7.24967 33.056 7.19635 33.1341 7.1431Z" fill="#919191"/>
+                                <path d="M23.0489 9.62921C23.0489 9.62921 26.3753 9.47744 29.2074 11.2631C29.7346 9.82461 30.7059 7.49369 31.8573 6.2325C29.2579 4.50475 26.321 3.63867 23.0335 3.63867C21.5495 3.63867 20.1391 3.81591 18.7997 4.1696C18.7997 4.1696 17.2368 4.44761 14.3216 5.99254C13.1718 6.60128 12.0388 7.36141 11.0228 8.30223C10.0068 9.24526 9.12441 10.3565 8.37659 11.5421C7.63128 12.7328 7.0397 14.0031 6.57138 15.2977C6.33408 15.9441 6.13564 16.5996 5.95725 17.2555L5.83024 17.748L5.76716 17.9948L5.75129 18.0567L5.71953 18.2075L5.69613 18.3156L5.60673 18.7489L5.56203 18.966L5.47973 19.4031L2.92502 19.4035C2.92502 19.4035 1.97792 19.3819 1.66918 19.4774C1.66918 19.4774 1.19584 19.5457 0.721661 20.0097C0.721661 20.0097 0.347748 20.3427 0.267124 20.6094C0.267124 20.6094 0.12675 20.8936 0.13928 21.4551V25.1649H36.828C37.6235 25.1649 38.2585 25.1896 38.7987 24.7564C39.4287 24.2505 39.6142 23.9362 39.6142 23.1129V19.4031H12.2335C12.4127 16.5226 13.542 14.3551 15.6204 12.3372C15.6204 12.3372 18.0368 9.80307 23.0489 9.62921Z" fill="#919191"/>
+                                </svg>
+                                <p class="text-[#6A6565] text-center text-[15px]" >
+                                    You are currently on the free plan
+                                </p>
+                                <p class="text-[#919191] text-center text-[13px]" >
+                                    Get access to courses and discounts  with monthly subscriptions
+                                </p>
+
+                                <button data-modal-target="extralarge-modal" data-modal-toggle="extralarge-modal"
+                                class=" w-2/3 h-[45px] flex-shrink-0 rounded-[20px] text-white border-0 bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-center text-md font-medium mx-auto  my-8">
+                                Upgrade
+                            </button>
+                           </div>
+                    </div>
+
+
+                </div>
+
+                <div class="w-full md:w-2/3">
+                    <section class="w-full my-0 py-0 mx-auto flex flex-col gap-6 pb-6">
+                        <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+                            <div class="flex gap-4 items-center">
+                                <div
+                                    class="min-w-[50px] min-h-[50px] rounded-full overflow-hidden grid place-items-center">
+                                    <img src="./imgs/profile-pic.png">
+                                </div>
+                                <input type="text" placeholder="What are you thinking?"
+                                    class="flex-1 rounded-full border border-gray-400 text-sm bg-gray-100 opacity-80 w-full">
+                            </div>
+                            <div class="flex justify-between gap-5">
+                                <button class="flex gap-2 items-center">
+                                    <img src="./imgs/img.svg">
+                                    <span>Image / Video</span>
+                                </button>
+                                <button class="flex gap-2 items-center">
+                                    <img src="./imgs/feeling.svg">
+                                    <span>Feeling</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+                            <div class="flex gap-4 items-start">
+                                <div
+                                    class="min-w-[50px] min-h-[50px] rounded-full overflow-hidden grid place-items-center">
+                                    <img src="./imgs/profile-pic.png">
+                                </div>
+                                <div class="flex gap-3 flex-col">
+                                    <div class="flex justify-between items-center">
+                                        <h1 class="font-medium text-lg">John Doe</h1>
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                    </div>
+                                    <p class="leading-[1.6] text-gray-500 text-sm">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet
+                                        tenetur, consectetur veniam facilis! Temporibus numquam quaerat et praesentium!
+                                    </p>
+                                    <div class="flex justify-between gap-5">
+                                        <div class="flex gap-5">
+                                            <button class="flex gap-1 items-center">
+                                                <i class="fa-regular fa-heart text-main"></i>
+                                                <span>2</span>
+                                            </button>
+                                            <button class="flex gap-1 items-center">
+                                                <i class="fa-regular fa-comment text-main"></i>
+                                                <span>1</span>
+                                            </button>
+                                        </div>
+                                        <button>
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+                            <div class="flex gap-4 items-start">
+                                <div
+                                    class="min-w-[50px] min-h-[50px] rounded-full overflow-hidden grid place-items-center">
+                                    <img src="./imgs/profile-pic.png">
+                                </div>
+                                <div class="flex gap-3 flex-col">
+                                    <div class="flex justify-between items-center">
+                                        <h1 class="font-medium text-lg">John Doe</h1>
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                    </div>
+                                    <p class="leading-[1.6] text-gray-500 text-sm">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet
+                                        tenetur, consectetur veniam facilis! Temporibus numquam quaerat et praesentium!
+                                    </p>
+                                    <div class="w-full overflow-hidden rounded-md grid place-items-center">
+                                        <img src="./imgs/post.jpg" class="w-full">
+                                    </div>
+                                    <div class="flex justify-between gap-5">
+                                        <div class="flex gap-5">
+                                            <button class="flex gap-1 items-center">
+                                                <i class="fa-regular fa-heart text-main"></i>
+                                                <span>2</span>
+                                            </button>
+                                            <button class="flex gap-1 items-center">
+                                                <i class="fa-regular fa-comment text-main"></i>
+                                                <span>1</span>
+                                            </button>
+                                        </div>
+                                        <button>
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const coursesSwiper = new Swiper('.courses-swiper', {
+            navigation: {
+                nextEl: '.courses.sw-btn-next',
+                prevEl: '.courses.sw-btn-prev',
+            },
+            spaceBetween: 20,
+            slidesPerView: 2,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 4
+                },
+                1280: {
+                    slidesPerView: 5
+                },
+                1536: {
+                    slidesPerView: 6
+                },
+                1700: {
+                    slidesPerView: 7
+                }
+            },
+        })
+
+        const consulSwiper = new Swiper('.consul-swiper', {
+            navigation: {
+                nextEl: '.consul.sw-btn-next',
+                prevEl: '.consul.sw-btn-prev',
+            },
+            spaceBetween: 20,
+            slidesPerView: 1,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 2
+                },
+                1536: {
+                    slidesPerView: 3
+                }
+            },
+        })
+    </script>
+</body>
+
+</html>
