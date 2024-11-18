@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/js/pagedone.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5]">
+
+    <aside id="separator-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+            <ul class="space-y-2 font-medium">
+                <li>
+                    <a href="#" class="flex items-center justify-center p-2">
+                        <img src="./imgs/logo.png" alt="Estisharati">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="./index.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/home.svg">
+                        <span class="ms-3">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./feed.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/feed.svg">
+                        <span class="ms-3">Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/profile.svg">
+                        <span class="ms-3">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./appointments.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/appointments.svg">
+                        <span class="ms-3">Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/courses.svg">
+                        <span class="ms-3">My Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/consultants.svg">
+                        <span class="ms-3">All Consultants</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/subscriptions.svg">
+                        <span class="ms-3">Subscriptions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/saved.svg">
+                        <span class="ms-3">Saved</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/contact.svg">
+                        <span class="ms-3">Contact us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/faq.svg">
+                        <span class="ms-3">FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/terms.svg">
+                        <span class="ms-3">Terms and conditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/lang.svg">
+                        <span class="ms-3">Language</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/logout.svg">
+                        <span class="ms-3">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="px-5 xl:px-10 sm:ml-64">
+
+        <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+            <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+                aria-controls="separator-sidebar" type="button"
+                class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="relative flex-1">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+                <input type="search" placeholder="Search..."
+                    class="px-4 pl-12 w-full border-gray-300 bg-gray-50 outline-none focus:outline-none focus:border-gray-400 rounded-full lg:max-w-[70%]">
+            </div>
+
+            <div class="flex gap-5 justify-between items-center">
+                <a href="#">
+                    <img src="./imgs/notifications.svg">
+                </a>
+                <a href="#">
+                    <img src="./imgs/profile-pic.png">
+                </a>
+            </div>
+        </header>
+
+
+        <section class="bg-white px-5 shadow-sm">
+            <div class="w-full bg-white px-4 md:px-5 lg:px-6 mx-auto">
+
+                <!-- Titles Row: Product, Price, Discount, Final Price -->
+                <div class="flex items-center justify-between py-6 flex-row">
+                    <div class="sm:text-[19px] text-[14px] leading-8 text-black sm:mr-20 mr-0  w-1/3">
+                        Product
+                    </div>
+                    <div class="sm:text-[19px] text-[14px] leading-8 text-black flex items-center justify-end w-2/3 gap-10">
+                        <span class="w-full text-center -ml-20">Price</span>
+                        <span class="w-full max-w-[260px] text-center hidden md:block">Discount</span>
+                        <span class="w-full text-center -ml-32 md:ml-0 md:-mr-10">Final Price</span>
+                        <span class="w-full hidden md:block text-center max-w-[100px]"></span>
+                    </div>
+                </div>
+            
+                <!-- Product Details Row -->
+                <div class="flex flex-row border-t border-gray-200 py-6 justify-between">
+            
+                    <!-- Product Image and Title -->
+                    <div class="flex flex-col md:flex-row items-start md:items-center gap-6 w-1/3 justify-center mx-auto">
+                        <div class="img-box hidden md:block">
+                            <img src="https://pagedone.io/asset/uploads/1701162850.png" alt="perfume bottle image" class="xl:w-[174px] h-[69px] rounded-xl object-cover">
+                        </div>
+                        <div class="pro-data w-full max-w-sm">
+                            <h5 class="font-[400] sm:text-[19px] text-[13px] text-[#E77E5C] ">
+                                Smart Behavior Adjustment
+                            </h5>
+                        </div>
+                    </div>
+            
+                    <!-- Pricing and Discount Section -->
+                    <div class="flex items-center flex-row w-2/3 justify-between mx-auto gap-6">
+            
+                        <!-- Price and Discount (Visible on small screens) -->
+                        <div class="sm:text-[19px] text-[16px] w-full text-center flex flex-col items-center justify-center">
+                            <del class="flex items-center justify-center sm:text-[19px] text-[16px] text-[#C4BCBC]">
+                                100$
+                            </del>
+                            <span class="flex md:hidden items-center justify-center sm:text-[19px] text-[16px] text-[#E77E5C]">
+                                50%
+                            </span>
+                        </div>
+            
+                        <!-- Discount (Visible on larger screens) -->
+                        <div class="hidden md:flex items-center w-full justify-center sm:text-[19px] text-[16px] text-[#F00]">
+                            50%
+                        </div>
+            
+                        <!-- Final Price -->
+                        <h6 class="text-black leading-9 sm:text-[19px] text-[16px] w-full text-center">
+                            $120.00
+                        </h6>
+            
+                        <!-- Close Button -->
+                        <button type="button" class="w-[100px] md:w-[150px] text-center">
+                            <img src="imgs/close.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            
+                <div class="flex flex-col lg:flex-row items-center justify-between border-t border-gray-200 py-6 gap-10">
+                    <!-- Total amount section -->
+                    <div class="flex flex-row gap-2 items-center w-64 justify-between gap-10">
+                        <span class="text-black font-medium text-[20px]">Total</span>
+                        <span class="text-[#84AA44] text-[22px]">250$</span>
+                    </div>
+            
+                    <!-- Submit button -->
+                    <button class="w-full md:w-[280px] h-[50px] rounded-full  bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px]">
+                        Proceed to Checkout
+                    </button>
+                </div>
+            </div>
+            
+        </section>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

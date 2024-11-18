@@ -1278,3 +1278,16 @@ section {
     padding-right: 2.5rem;
   }
 }
+
+
+/* ====================== Video Styling ====================== */
+
+.video-js .vjs-big-play-button {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+  color: #efc2ad80;
+}
+
+/* ====================== end Video Styling ====================== */

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5]">
+    <aside id="separator-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto no-scrollbar bg-white relative pb-20">
+            <ul class="space-y-2 font-medium">
+                <li>
+                    <a href="#" class="flex items-center justify-center p-2">
+                        <img src="./imgs/logo.png" alt="Estisharati">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="./index.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/home.svg">
+                        <span class="ms-3">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./feed.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/feed.svg">
+                        <span class="ms-3">Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/profile.svg">
+                        <span class="ms-3">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./appointments.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/appointments.svg">
+                        <span class="ms-3">Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/courses.svg">
+                        <span class="ms-3">My Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/consultants.svg">
+                        <span class="ms-3">All Consultants</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/subscriptions.svg">
+                        <span class="ms-3">Subscriptions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/saved.svg">
+                        <span class="ms-3">Saved</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/contact.svg">
+                        <span class="ms-3">Contact us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/faq.svg">
+                        <span class="ms-3">FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/terms.svg">
+                        <span class="ms-3">Terms and conditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/lang.svg">
+                        <span class="ms-3">Language</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/logout.svg">
+                        <span class="ms-3">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="px-5 xl:px-10 sm:ml-64">
+
+        <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+            <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+                aria-controls="separator-sidebar" type="button"
+                class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="relative  items-center w-full hidden md:hidden lg:flex">
+                <div class="relative flex items-center gap-4">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="20" fill="white" />
+                        <path d="M12.25 20.2754L27.25 20.2754" stroke="#121826" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M18.2998 26.299L12.2498 20.275L18.2998 14.25" stroke="#121826" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    All consultants
+                </div>
+
+            </div>
+
+            <div class="flex gap-5 justify-between items-center">
+                <a href="#">
+                    <img src="./imgs/notifications.svg">
+                </a>
+                <a href="#">
+                    <img src="./imgs/profile-pic.png">
+                </a>
+            </div>
+        </header>
+
+
+        <section class="md:bg-white md:px-5 shadow-sm">
+            <div class="flex items-center justify-between mt-4 mb-9 gap-5">
+                <div class="relative flex-1">
+                    <!-- Search Input -->
+                    <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+                    <input type="search" placeholder="Search..."
+                        class="px-4 pl-12 w-full border-gray-300 bg-gray-50 outline-none focus:outline-none focus:border-gray-400 rounded-lg lg:max-w-[80%] h-[42px]">
+                </div>
+
+                <!-- Dropdown Form -->
+                <form action="" class="sm:w-1/6 w-[150px] ">
+                    <select id="countries"
+                        class="bg-gray-50 border-2 border-[#d5d5d5] text-[#2a2a2a] sm:text-[17px] text-[14px] rounded-lg box-border h-[42px] focus:ring-0 focus:border-[#d5d5d5] w-full pr-0 pl-10 cursor-pointer">
+                        <option selected>Best Sellers</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="FR">France</option>
+                        <option value="DE">Germany</option>
+                    </select>
+                </form>
+
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-10 hidden md:block" width="100%" height="4"
+                viewBox="0 0 1171 2" fill="none">
+                <path opacity="0.1" d="M-5.77802e-05 0.777446L1171 0.777344" stroke="#2A2A2A" />
+            </svg>
+
+            <!-- Main container for the consultant cards with responsive styling -->
+            <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 mx-auto md:px-4">
+                <!-- Individual consultant card -->
+                <div
+                    class="flex flex-col md:flex-row items-center gap-4 p-2 rounded-lg bg-white shadow-[0px_4px_13.5px_0px_rgba(0,_0,_0,_0.10)]">
+                    <!-- Container for consultant image -->
+                    <div class="img w-full h-[120px] md:h-full md:w-[120px] flex-shrink-0">
+                        <img class="w-full h-full rounded-lg object-cover" src="imgs/cons.png" alt="Consultant Image">
+                    </div>
+
+                    <!-- Container for consultant content (details, rating, price) -->
+                    <div class="content flex flex-col justify-start items-start gap-2 w-full">
+                        <!-- Consultant's name and title -->
+                        <div class="flex flex-col items-start gap-1 border-b border-gray-200 py-2 w-full">
+                            <span class="text-sm text-gray-900 font-semibold">Mona Mariam</span>
+                            <span class="text-xs text-gray-500">Psychological and Family Consultant</span>
+                        </div>
+
+                        <!-- Consultant's rating -->
+                        <div class="flex  items-start justify-between w-full">
+                            <span class="text-sm font-medium text-gray-800">Rating</span>
+                            <!-- Star rating system -->
+                            <div class="flex items-center">
+                                <svg class="w-4 h-4 text-yellow-300 ms-1" xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor" viewBox="0 0 22 20">
+                                    <path
+                                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                </svg>
+                                <!-- Repeat stars as needed -->
+                            </div>
+                        </div>
+
+                        <!-- Consultation price -->
+                        <div class="flex justify-between w-full items-center">
+                            <span class="text-sm font-medium text-gray-800 w-1/3 md:w-2/3">Consultation Price</span>
+                            <span class="text-sm font-medium  text-[#84AA44] text-right">200 $</span>
+                        </div>
+
+                        <!-- Button -->
+                        <button
+                            class="w-full py-2 my-2 mt-2 rounded-full bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-center text-sm">
+                            Book Now
+                        </button>
+                    </div>
+                </div>
+                <!-- Individual consultant card -->
+                <div
+                    class="flex flex-col md:flex-row items-center gap-4 p-2 rounded-lg bg-white shadow-[0px_4px_13.5px_0px_rgba(0,_0,_0,_0.10)]">
+                    <!-- Container for consultant image -->
+                    <div class="img w-full h-[120px] md:h-full md:w-[120px] flex-shrink-0">
+                        <img class="w-full h-full rounded-lg object-cover" src="imgs/cons.png" alt="Consultant Image">
+                    </div>
+
+                    <!-- Container for consultant content (details, rating, price) -->
+                    <div class="content flex flex-col justify-start items-start gap-2 w-full">
+                        <!-- Consultant's name and title -->
+                        <div class="flex flex-col items-start gap-1 border-b border-gray-200 py-2 w-full">
+                            <span class="text-sm text-gray-900 font-semibold">Mona Mariam</span>
+                            <span class="text-xs text-gray-500">Psychological and Family Consultant</span>
+                        </div>
+
+                        <!-- Consultant's rating -->
+                        <div class="flex  items-start justify-between w-full">
+                            <span class="text-sm font-medium text-gray-800">Rating</span>
+                            <!-- Star rating system -->
+                            <div class="flex items-center">
+                                <svg class="w-4 h-4 text-yellow-300 ms-1" xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor" viewBox="0 0 22 20">
+                                    <path
+                                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                </svg>
+                                <!-- Repeat stars as needed -->
+                            </div>
+                        </div>
+
+                        <!-- Consultation price -->
+                        <div class="flex justify-between w-full items-center">
+                            <span class="text-sm font-medium text-gray-800 w-1/3 md:w-2/3">Consultation Price</span>
+                            <span class="text-sm font-medium  text-[#84AA44] text-right">200 $</span>
+                        </div>
+
+                        <!-- Button -->
+                        <button
+                            class="w-full py-2 my-2 mt-2 rounded-full bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-center text-sm">
+                            Book Now
+                        </button>
+                    </div>
+                </div>
+                <!-- Individual consultant card -->
+                <div
+                    class="flex flex-col md:flex-row items-center gap-4 p-2 rounded-lg bg-white shadow-[0px_4px_13.5px_0px_rgba(0,_0,_0,_0.10)]">
+                    <!-- Container for consultant image -->
+                    <div class="img w-full h-[120px] md:h-full md:w-[120px] flex-shrink-0">
+                        <img class="w-full h-full rounded-lg object-cover" src="imgs/cons.png" alt="Consultant Image">
+                    </div>
+
+                    <!-- Container for consultant content (details, rating, price) -->
+                    <div class="content flex flex-col justify-start items-start gap-2 w-full">
+                        <!-- Consultant's name and title -->
+                        <div class="flex flex-col items-start gap-1 border-b border-gray-200 py-2 w-full">
+                            <span class="text-sm text-gray-900 font-semibold">Mona Mariam</span>
+                            <span class="text-xs text-gray-500">Psychological and Family Consultant</span>
+                        </div>
+
+                        <!-- Consultant's rating -->
+                        <div class="flex  items-start justify-between w-full">
+                            <span class="text-sm font-medium text-gray-800">Rating</span>
+                            <!-- Star rating system -->
+                            <div class="flex items-center">
+                                <svg class="w-4 h-4 text-yellow-300 ms-1" xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor" viewBox="0 0 22 20">
+                                    <path
+                                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                </svg>
+                                <!-- Repeat stars as needed -->
+                            </div>
+                        </div>
+
+                        <!-- Consultation price -->
+                        <div class="flex justify-between w-full items-center">
+                            <span class="text-sm font-medium text-gray-800 w-1/3 md:w-2/3">Consultation Price</span>
+                            <span class="text-sm font-medium  text-[#84AA44] text-right">200 $</span>
+                        </div>
+
+                        <!-- Button -->
+                        <button
+                            class="w-full py-2 my-2 mt-2 rounded-full bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-center text-sm">
+                            Book Now
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/js/pagedone.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5]">
+
+    <aside id="separator-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+            <ul class="space-y-2 font-medium">
+                <li>
+                    <a href="#" class="flex items-center justify-center p-2">
+                        <img src="./imgs/logo.png" alt="Estisharati">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="./index.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/home.svg">
+                        <span class="ms-3">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./feed.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/feed.svg">
+                        <span class="ms-3">Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/profile.svg">
+                        <span class="ms-3">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./appointments.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/appointments.svg">
+                        <span class="ms-3">Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/courses.svg">
+                        <span class="ms-3">My Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/consultants.svg">
+                        <span class="ms-3">All Consultants</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/subscriptions.svg">
+                        <span class="ms-3">Subscriptions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/saved.svg">
+                        <span class="ms-3">Saved</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/contact.svg">
+                        <span class="ms-3">Contact us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/faq.svg">
+                        <span class="ms-3">FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/terms.svg">
+                        <span class="ms-3">Terms and conditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/lang.svg">
+                        <span class="ms-3">Language</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/logout.svg">
+                        <span class="ms-3">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="px-5 xl:px-10 sm:ml-64">
+
+        <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+            <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+                aria-controls="separator-sidebar" type="button"
+                class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="relative flex-1">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+                <input type="search" placeholder="Search..."
+                    class="px-4 pl-12 w-full border-gray-300 bg-transparent outline-none focus:outline-none focus:border-gray-400 rounded-full lg:max-w-[70%]">
+            </div>
+
+            <div class="flex gap-5 justify-between items-center">
+                <a href="#">
+                    <img src="./imgs/notifications.svg">
+                </a>
+                <a href="#">
+                    <img src="./imgs/profile-pic.png">
+                </a>
+            </div>
+        </header>
+
+
+        <section>
+
+            <div class="flex items-start gap-5">
+                <!-- ORDER SUMMARY -->
+                <div
+                    class="w-full lg:w-1/2 bg-white px-4 md:px-5 lg:px-6 mx-auto bg-white px-5 shadow-sm rounded-[10px]">
+
+                    <!-- title -->
+                    <div class="flex items-center justify-center my-5">
+                        <span class="text-[#1A202C] text-md font-medium ">Order Summary</span>
+                    </div>
+
+                    <!-- Product Details Row -->
+                    <div class="flex flex-row border-t border-gray-200 py-6 ">
+
+                        <!-- Product Image and Title -->
+                        <div
+                            class="flex flex-col md:flex-row items-start md:items-center gap-6 w-[40%] justify-center mx-auto">
+                            <div class="img-box hidden md:block">
+                                <img src="https://pagedone.io/asset/uploads/1701162850.png" alt="perfume bottle image"
+                                    class="xl:w-[174px] h-[69px] rounded-xl object-cover">
+                            </div>
+                            <div class="w-full">
+                                <h5 class="font-[400] w-full  text-[13px] text-[#E77E5C] ">
+                                    Smart Behavior Adjustment
+                                </h5>
+                            </div>
+                        </div>
+
+                        <!-- Pricing and Discount Section -->
+                        <div class="flex items-center flex-row w-2/3 justify-between mx-auto gap-6">
+                            <!-- Final Price -->
+                            <h6 class="text-black leading-9 sm:text-[19px] text-[16px] w-full text-center">
+                                $120.00
+                            </h6>
+
+                            <!-- Close Button -->
+                            <button type="button" class="w-[100px] md:w-[150px] text-center">
+                                <img src="imgs/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col lg:flex-row items-center justify-between border-t border-gray-200 py-6 gap-5 ">
+                        <input placeholder="Coupon" type="text"
+                            class="focus:border-gray-900 focus:ring-gray-900 shadow-xs bg-transparent border border-[#E6E6E6] text-gray-600 w-full rounded-[10px] h-[45px] text-sm">
+                        <!-- Submit button -->
+                        <button
+                            class="w-full md:w-[250px] h-[45px] rounded-[10px]  bg-[#E6650D] text-white text-[16px]">
+                            Apply
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Checkout -->
+                <div
+                    class="w-full lg:w-1/2 bg-white px-4 md:px-5 lg:px-6 mx-auto bg-white px-5 shadow-sm rounded-[10px]">
+
+                    <!-- Title Section -->
+                    <div class="flex items-center justify-center my-5">
+                        <span class="text-[#1A202C] text-md font-medium">Checkout</span>
+                    </div>
+
+                    <!-- Payment Method Dropdown -->
+                    <form action="" class="sm:mt-0 mt-2 w-full">
+                        <select id="countries"
+                            class="bg-transparent border border-[#d5d5d5] text-[#2a2a2a] sm:text-[17px] text-[14px] rounded-[10px] box-border h-[50px] focus:ring-0 focus:border-[#d5d5d5] w-full pl-3 cursor-pointer">
+                            <option selected>VISA</option>
+                            <option value="PY">Paypal</option>
+                        </select>
+                    </form>
+
+                    <!-- Card Information Form -->
+                    <form action="#" class="w-full mt-6">
+                        <div class="mb-6 grid grid-cols-1 gap-4">
+
+                            <!-- Full Name Input -->
+                            <div>
+                                <label for="full_name" class="mb-2 block text-sm font-[400] text-[#16003B]">
+                                    Full name (as displayed on card)*
+                                </label>
+                                <input autocomplete="off" type="text" id="full_name"
+                                    class="block w-full rounded-lg border border-gray-300 bg-transparent p-2.5 text-sm text-gray-900 focus:border-gray-900 focus:ring-gray-900"
+                                    placeholder="Bonnie Green" required />
+                            </div>
+
+                            <!-- Card Number Input -->
+                            <div>
+                                <label for="card-number-input" class="mb-2 block text-sm font-[400] text-[#16003B]">
+                                    Card number*
+                                </label>
+                                <input autocomplete="off" type="text" id="card-number-input"
+                                    class="block w-full rounded-lg border border-gray-300 bg-transparent p-2.5 pe-10 text-sm text-gray-900 focus:border-gray-900 focus:ring-gray-900"
+                                    placeholder="xxxx-xxxx-xxxx-xxxx" pattern="^4[0-9]{12}(?:[0-9]{3})?$" required />
+                            </div>
+
+                            <!-- Card Expiration and CVV Inputs -->
+                            <div class="grid grid-cols-2 gap-4">
+                                <!-- Card Expiration -->
+                                <div>
+                                    <label for="card-expiration-input"
+                                        class="mb-2 block text-sm font-[400] text-[#16003B]">
+                                        Card expiration*
+                                    </label>
+                                    <input autocomplete="off" type="text" id="card-expiration-input"
+                                        class="block w-full rounded-lg border border-gray-300 bg-transparent p-2.5 text-sm text-gray-900 focus:border-gray-900 focus:ring-gray-900"
+                                        placeholder="12/23" required />
+                                </div>
+
+                                <!-- CVV -->
+                                <div>
+                                    <label for="cvv-input"
+                                        class="mb-2 block text-sm font-[400] text-[#16003B]">CVV*</label>
+                                    <input autocomplete="off" type="text" id="cvv-input"
+                                        class="block w-full rounded-lg border border-gray-300 bg-transparent p-2.5 text-sm text-gray-900 focus:border-gray-900 focus:ring-gray-900"
+                                        placeholder="•••" required />
+                                </div>
+                            </div>
+
+                            <!-- Checkboxes -->
+                            <div class="flex items-center gap-10 mt-3">
+                                <!-- Terms and Conditions Checkbox -->
+                                <div class="flex items-center">
+                                    <input id="terms-checkbox" type="checkbox" value=""
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
+                                    <label for="terms-checkbox" class="ms-2 text-sm text-[#6A6565]">
+                                        I agree to the <a href="#" class="text-[#E6650D] hover:underline">terms and
+                                            conditions*</a>.
+                                    </label>
+                                </div>
+
+                                <!-- Save Payment Details Checkbox -->
+                                <div class="flex items-center">
+                                    <input id="save-payment-checkbox" type="checkbox" value=""
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
+                                    <label for="save-payment-checkbox" class="ms-2 text-sm text-[#6A6565]">Save payment
+                                        details</label>
+                                </div>
+                            </div>
+
+                            <!-- Privacy Policy Note -->
+                            <span class="text-[#6A6565] text-sm font-light mt-3">
+                                Your personal data will be used to process your request, support your experience
+                                throughout this
+                                website, and for other purposes described in our
+                                <a href="" class="text-[#E6650D]">Privacy Policy</a>.
+                            </span>
+
+                            <!-- Total Price Section -->
+                            <div
+                                class="w-full h-12 rounded-[10px] bg-[#F3F3F3] flex items-center justify-between mt-4 p-2 px-5">
+                                <span>Total</span>
+                                <span class="text-[#84AA44] text-md font-semibold">200%</span>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="flex justify-center mt-5">
+                                <button
+                                    class="w-full md:w-[280px] h-[50px] rounded-full font-medium bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px]">
+                                    Confirm
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
