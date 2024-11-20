@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5] ">
+
+  <aside id="separator-sidebar"
+    class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+    aria-label="Sidebar">
+    <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+      <ul class="space-y-2 font-medium">
+        <li>
+          <a href="#" class="flex items-center justify-center p-2">
+            <img src="../imgs/logo.png" alt="Estisharati">
+          </a>
+        </li>
+      </ul>
+      <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+        <li>
+          <a href="./index.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/home.svg">
+            <span class="ms-3">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="./feed.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/feed.svg">
+            <span class="ms-3">Feed</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/profile.svg">
+            <span class="ms-3">My Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="./appointments.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/appointments.svg">
+            <span class="ms-3">Appointments</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/courses.svg">
+            <span class="ms-3">My Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/consultants.svg">
+            <span class="ms-3">All Consultants</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/subscriptions.svg">
+            <span class="ms-3">Subscriptions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/saved.svg">
+            <span class="ms-3">Saved</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/contact.svg">
+            <span class="ms-3">Contact us</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/faq.svg">
+            <span class="ms-3">FAQ</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/terms.svg">
+            <span class="ms-3">Terms and conditions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/lang.svg">
+            <span class="ms-3">Language</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="../imgs/logout.svg">
+            <span class="ms-3">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="px-5 xl:px-10 sm:ml-64 ">
+
+    <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+      <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+        aria-controls="separator-sidebar" type="button"
+        class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+          </path>
+        </svg>
+      </button>
+
+      <div class="relative flex-1">
+      </div>
+
+      <div class="flex gap-5 justify-between items-center">
+        <a href="#">
+          <img src="../imgs/notifications.svg">
+        </a>
+        <a href="#">
+          <img src="../imgs/profile-pic.png">
+        </a>
+      </div>
+
+    </header>
+
+    <section class="max-w-[900px] lg:ml-20 my-0 py-0 mx-auto flex flex-col gap-6 pb-6">
+      <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+        <div class="flex gap-4 items-center">
+          <div class="min-w-[50px] min-h-[50px] rounded-full overflow-hidden grid place-items-center">
+            <img src="../imgs/profile-pic.png">
+          </div>
+          <input type="text" placeholder="What are you thinking?"
+            class="flex-1 rounded-full border border-gray-400 text-sm bg-gray-100 opacity-80 w-full">
+        </div>
+        <div class="flex justify-between gap-5">
+          <button data-modal-target="static-modal-post" data-modal-toggle="static-modal-post"  type="button" class="flex gap-2 items-center">
+            <img src="../imgs/img.svg">
+            <span>Image / Video</span>
+          </button>
+          <button data-modal-target="static-modal-post" data-modal-toggle="static-modal-post"  type="button" class="flex gap-2 items-center">
+            <img src="../imgs/feeling.svg">
+            <span>Feeling</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+        <div class="flex gap-4 items-start">
+          <div class="flex gap-3 flex-col">
+            <div class="flex justify-between items-center">
+              <div class="flex items-center gap-3">
+                <img src="../imgs/profile-pic.png">
+                <h1 class="font-medium text-lg">John Doe</h1>
+              </div>
+              <button>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </button>
+            </div>
+            <p class="leading-[1.6] text-gray-500 text-sm">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet tenetur, consectetur
+              veniam facilis! Temporibus numquam quaerat et praesentium!
+            </p>
+            <div class="flex justify-between gap-5">
+              <div class="flex gap-5">
+                <button class="flex gap-1 items-center">
+                  <i class="fa-regular fa-heart text-main"></i>
+                  <span>2</span>
+                </button>
+                <button data-modal-target="static-modal" data-modal-toggle="static-modal" type="button"
+                  class="flex gap-1 items-center">
+                  <i class="fa-regular fa-comment text-main"></i>
+                  <span>1</span>
+                </button>
+              </div>
+              <button>
+                <i class="fa-regular fa-bookmark"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+        <div class="flex gap-4 items-start">
+          <div class="flex gap-3 flex-col">
+            <div class="flex justify-between items-center">
+              <div class="flex items-center gap-3">
+                <img src="../imgs/profile-pic.png">
+                <h1 class="font-medium text-lg">John Doe</h1>
+              </div>
+              <button>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </button>
+            </div>
+            <p class="leading-[1.6] text-gray-500 text-sm">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet tenetur, consectetur
+              veniam facilis! Temporibus numquam quaerat et praesentium!
+            </p>
+
+            <div class="w-full overflow-hidden rounded-md grid place-items-center">
+              <img src="../imgs/post.jpg" class="w-full">
+            </div>
+            <div class="flex justify-between gap-5">
+              <div class="flex gap-5">
+                <button class="flex gap-1 items-center">
+                  <i class="fa-regular fa-heart text-main"></i>
+                  <span>2</span>
+                </button>
+                <button class="flex gap-1 items-center">
+                  <i class="fa-regular fa-comment text-main"></i>
+                  <span>1</span>
+                </button>
+              </div>
+              <button>
+                <i class="fa-regular fa-bookmark"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!-- Main modal comment -->
+    <div id="static-modal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true"
+      class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+      <div class="relative p-4 w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow">
+          <!-- Modal header -->
+          <div class="flex items-center justify-between px-4 md:px-5x pt-4 rounded-t border-gray-600">
+            <div class="flex items-center gap-3">
+              <img class="w-[40px]" src="../imgs/profile-pic.png">
+              <h1 class="font-medium text-lg">John Doe</h1>
+            </div>
+            <button type="button"
+              class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+              data-modal-hide="static-modal">
+              <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+          <!-- Modal body -->
+          <div class="px-4 md:px-5 space-y-4 pb-5">
+            <div class="p-2 flex flex-col gap-6">
+              <div class="flex gap-4 items-start">
+                <div class="flex gap-3 flex-col">
+                  <div class="flex justify-between items-center"></div>
+                  <p class="leading-[1.6] text-gray-500 text-sm">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet
+                    tenetur, consectetur veniam facilis! Temporibus numquam quaerat et praesentium!
+                  </p>
+                  <div class="w-full overflow-hidden rounded-md grid place-items-center">
+                    <img src="../imgs/post.jpg" class="w-full">
+                  </div>
+                  <div class="flex justify-between gap-5">
+                    <div class="flex gap-5">
+                      <button class="flex gap-1 items-center">
+                        <i class="fa-regular fa-heart text-main"></i>
+                        <span>2</span>
+                      </button>
+                      <button class="flex gap-1 items-center">
+                        <i class="fa-regular fa-comment text-main"></i>
+                        <span>1</span>
+                      </button>
+                    </div>
+                    <button>
+                      <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between px-4 md:px-5x pt-4 rounded-t border-t border-gray-200">
+            <div class="flex items-center gap-3">
+              <img class="w-10" src="../imgs/profile-pic.png">
+              <div class="flex items-center gap-2">
+                <h1 class="font-medium text-sm">John Doe</h1>
+                <span class="text-xs text-[#908C89]">1 day ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="pl-10 flex flex-col gap-6 border-b border-gray-200 pb-5">
+            <div class="flex gap-4 items-start">
+              <div class="flex gap-3 flex-col">
+                <p class="leading-[1.6] text-gray-500 text-sm pl-8 pr-5">
+                  Please note that some processing of your personal data may not require your consent,
+                  but you have a right to object to such processing 😍😍😍...
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Modal footer -->
+          <div class="flex items-center justify-between p-4 md:p-5 border-b border-gray-200 rounded-b w-full gap-5">
+
+            <svg width="43" height="37" viewBox="0 0 43 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="43" height="37" rx="7" fill="#F5773A" fill-opacity="0.19" />
+              <path
+                d="M19.4437 29C17.9325 29 16.6474 28.4593 15.5884 27.3778C14.5295 26.2964 14 24.984 14 23.4406V12.0377C14 10.9273 14.3871 9.97677 15.1614 9.18606C15.9357 8.39535 16.8664 8 17.9537 8C19.0409 8 19.9717 8.39535 20.7459 9.18606C21.5202 9.97677 21.9073 10.9273 21.9073 12.0377V20.742H20.6755V12.0377C20.6755 11.2593 20.4123 10.6015 19.8859 10.0641C19.3595 9.52665 18.7152 9.25794 17.9528 9.25794C17.1904 9.25794 16.5464 9.52665 16.0205 10.0641C15.4947 10.6015 15.2318 11.2593 15.2318 12.0377V23.4406C15.2318 24.6282 15.6438 25.6421 16.4679 26.4821C17.292 27.3221 18.2827 27.7421 19.4399 27.7421C19.9484 27.7421 20.4272 27.6568 20.8762 27.4864C21.3252 27.316 21.7285 27.0779 22.0861 26.7722V28.2959C21.6901 28.5164 21.2704 28.6889 20.827 28.8133C20.3837 28.9378 19.9225 29 19.4437 29ZM24.351 27.8029V24.6377H21.2517V23.0551H24.351V19.8899H25.9007V23.0551H29V24.6377H25.9007V27.8029H24.351ZM19.4437 23.5826V24.8406C18.7536 24.8406 18.1705 24.5974 17.6944 24.111C17.2182 23.6245 16.9801 23.0291 16.9801 22.3247V12.0377H18.2119V22.3247C18.2119 22.6811 18.33 22.9798 18.5661 23.221C18.8022 23.4621 19.0947 23.5826 19.4437 23.5826ZM23.6556 17.6377V12.0377H24.8874V17.6377H23.6556Z"
+                fill="#F5773A" />
+            </svg>
+            <input type="text" placeholder="Comment"
+              class="h-[37px] bg-[#F1F1F1] w-full focus:ring-[#858585] rounded-[7px] border-none outline-none text-[#858585] foucus-0 placeholder:text-[#858585]  text-sm" />
+
+            <svg width="43" height="37" viewBox="0 0 43 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="43" height="37" rx="7" fill="#F5773A" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M14.363 11.0502C14.2481 11.0003 14.1213 10.9872 13.9991 11.0127C13.877 11.0381 13.765 11.1009 13.6777 11.1929C13.5905 11.285 13.532 11.4019 13.5099 11.5287C13.4878 11.6555 13.503 11.7863 13.5536 11.904L16.1187 17.8571H22.4147C22.5797 17.8571 22.7379 17.9248 22.8546 18.0454C22.9712 18.166 23.0367 18.3295 23.0367 18.5C23.0367 18.6705 22.9712 18.834 22.8546 18.9546C22.7379 19.0752 22.5797 19.1429 22.4147 19.1429H16.1187L13.5536 25.096C13.503 25.2137 13.4878 25.3445 13.5099 25.4713C13.532 25.5981 13.5905 25.715 13.6777 25.8071C13.765 25.8991 13.877 25.9619 13.9991 25.9873C14.1213 26.0128 14.2481 25.9997 14.363 25.9498L30.1198 19.0923C30.2325 19.0432 30.3287 18.9608 30.3963 18.8554C30.4639 18.7501 30.5 18.6264 30.5 18.5C30.5 18.3736 30.4639 18.2499 30.3963 18.1446C30.3287 18.0392 30.2325 17.9568 30.1198 17.9077L14.363 11.0502Z"
+                fill="white" />
+            </svg>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+            <!-- Main modal post -->
+        <div id="static-modal-post" data-modal-backdrop="static" tabindex="-1" aria-hidden="true"
+            class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full max-w-lg mx-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+            <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div class="relative bg-white rounded-lg shadow">
+                    <!-- Modal header -->
+                    <div class="flex items-center justify-between px-4 md:px-5x pt-4 rounded-t border-gray-600">
+                        <div class="flex items-center gap-3">
+                            <img class="w-[40px]" src="../imgs/profile-pic.png">
+                            <h1 class="font-medium text-lg">John Doe</h1>
+                        </div>
+                        <button type="button"
+                            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+                            data-modal-hide="static-modal-post">
+                            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 14 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                            </svg>
+                            <span class="sr-only">Close modal</span>
+                        </button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="px-4 md:px-5 space-y-4 pb-5">
+                        <div class="p-2 flex flex-col gap-6">
+                            <div class="flex gap-4 items-start">
+                                <div class="flex gap-3 flex-col w-full mt-5">
+                                    <textarea placeholder="What’s in your mind?" class="h-[235px] w-full p-4 focus:ring-[#EFEFEF] border-none outline-none text-[#000] foucus-0  rounded-[15px] border border-[#D0D0D0] bg-[#EFEFEF]"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex items-center justify-between px-4 w-full md:px-7">
+                        <div class="flex justify-between gap-5 w-full">
+                            <button class="flex gap-2 items-center">
+                              <img src="../imgs/img.svg">
+                              <span>Image / Video</span>
+                            </button>
+                            <button class="flex gap-2 items-center">
+                              <img src="../imgs/feeling.svg">
+                              <span>Feeling</span>
+                            </button>
+                          </div>
+                    </div>
+                  
+                    <!-- Modal footer -->
+                    <div
+                        class="flex items-center justify-center p-4 md:p-5 border-b border-gray-200 rounded-b w-full gap-5 mt-5 mx-auto">
+
+                        <button>
+                            <svg width="334" height="56" viewBox="0 0 334 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="334" height="56" rx="28" fill="url(#paint0_linear_77_799)"/>
+                                <path d="M158.818 26.288C158.818 26.8853 158.674 27.4453 158.386 27.968C158.109 28.4907 157.666 28.912 157.058 29.232C156.461 29.552 155.704 29.712 154.786 29.712H152.914V34H150.674V22.832H154.786C155.65 22.832 156.386 22.9813 156.994 23.28C157.602 23.5787 158.056 23.9893 158.354 24.512C158.664 25.0347 158.818 25.6267 158.818 26.288ZM154.69 27.904C155.309 27.904 155.768 27.7653 156.066 27.488C156.365 27.2 156.514 26.8 156.514 26.288C156.514 25.2 155.906 24.656 154.69 24.656H152.914V27.904H154.69ZM164.345 34.144C163.491 34.144 162.723 33.9573 162.041 33.584C161.358 33.2 160.819 32.6613 160.425 31.968C160.041 31.2747 159.849 30.4747 159.849 29.568C159.849 28.6613 160.046 27.8613 160.441 27.168C160.846 26.4747 161.395 25.9413 162.089 25.568C162.782 25.184 163.555 24.992 164.409 24.992C165.262 24.992 166.035 25.184 166.729 25.568C167.422 25.9413 167.966 26.4747 168.361 27.168C168.766 27.8613 168.969 28.6613 168.969 29.568C168.969 30.4747 168.761 31.2747 168.345 31.968C167.939 32.6613 167.385 33.2 166.681 33.584C165.987 33.9573 165.209 34.144 164.345 34.144ZM164.345 32.192C164.75 32.192 165.129 32.096 165.481 31.904C165.843 31.7013 166.131 31.4027 166.345 31.008C166.558 30.6133 166.665 30.1333 166.665 29.568C166.665 28.7253 166.441 28.08 165.993 27.632C165.555 27.1733 165.017 26.944 164.377 26.944C163.737 26.944 163.198 27.1733 162.761 27.632C162.334 28.08 162.121 28.7253 162.121 29.568C162.121 30.4107 162.329 31.0613 162.745 31.52C163.171 31.968 163.705 32.192 164.345 32.192ZM174.004 34.144C173.278 34.144 172.628 34.016 172.052 33.76C171.476 33.4933 171.017 33.136 170.676 32.688C170.345 32.24 170.164 31.744 170.132 31.2H172.388C172.43 31.5413 172.596 31.824 172.884 32.048C173.182 32.272 173.55 32.384 173.988 32.384C174.414 32.384 174.745 32.2987 174.98 32.128C175.225 31.9573 175.348 31.7387 175.348 31.472C175.348 31.184 175.198 30.9707 174.9 30.832C174.612 30.6827 174.148 30.5227 173.508 30.352C172.846 30.192 172.302 30.0267 171.876 29.856C171.46 29.6853 171.097 29.424 170.788 29.072C170.489 28.72 170.34 28.2453 170.34 27.648C170.34 27.1573 170.478 26.7093 170.756 26.304C171.044 25.8987 171.449 25.5787 171.972 25.344C172.505 25.1093 173.129 24.992 173.844 24.992C174.9 24.992 175.742 25.2587 176.372 25.792C177.001 26.3147 177.348 27.024 177.412 27.92H175.268C175.236 27.568 175.086 27.2907 174.82 27.088C174.564 26.8747 174.217 26.768 173.78 26.768C173.374 26.768 173.06 26.8427 172.836 26.992C172.622 27.1413 172.516 27.3493 172.516 27.616C172.516 27.9147 172.665 28.144 172.964 28.304C173.262 28.4533 173.726 28.608 174.356 28.768C174.996 28.928 175.524 29.0933 175.94 29.264C176.356 29.4347 176.713 29.7013 177.012 30.064C177.321 30.416 177.481 30.8853 177.492 31.472C177.492 31.984 177.348 32.4427 177.06 32.848C176.782 33.2533 176.377 33.5733 175.844 33.808C175.321 34.032 174.708 34.144 174.004 34.144ZM181.939 26.976V31.264C181.939 31.5627 182.008 31.7813 182.147 31.92C182.296 32.048 182.541 32.112 182.883 32.112H183.923V34H182.515C180.627 34 179.683 33.0827 179.683 31.248V26.976H178.627V25.136H179.683V22.944H181.939V25.136H183.923V26.976H181.939Z" fill="white"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_77_799" x1="0" y1="28" x2="334" y2="28" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#DD5000"/>
+                                <stop offset="1" stop-color="#FE9E2C"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                                
+                        </button>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>

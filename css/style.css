@@ -1291,3 +1291,124 @@ section {
 }
 
 /* ====================== end Video Styling ====================== */
+
+/* ====================== button income call ====================== */
+
+.cc-calto-action-ripple {
+    z-index: 99999;
+    background: #27AE60;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ffffff;
+    -webkit-animation: cc-calto-action-ripple 0.6s linear infinite;
+    animation: cc-calto-action-ripple 0.6s linear infinite;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cc-calto-action-ripple i {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 1rem;
+}
+
+.cc-calto-action-ripple:hover i {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+@-webkit-keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px #EB5757, 0 0 0 0 #27AE6033, 0 0 0 5px #27AE6033, 0 0 0 10px #27AE6033;
+        box-shadow: 0 4px 10px #27AE6033, 0 0 0 0 #27AE6033, 0 0 0 5px #27AE6033, 0 0 0 10px #27AE6033;
+    }
+
+    100% {
+        -webkit-box-shadow: 0 4px 10px #27AE6033, 0 0 0 5px #27AE6033, 0 0 0 10px #27AE6033, 0 0 0 20px rgba(236, 139, 0, 0);
+        box-shadow: 0 4px 10px #27AE6033, 0 0 0 5px #27AE6033, 0 0 0 10px #27AE6033, 0 0 0 20px rgba(236, 139, 0, 0);
+    }
+}
+
+@keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px #27AE6033, 0 0 0 0 #27AE6033, 0 0 0 5px #27AE6033, 0 0 0 10px #27AE6033;
+        box-shadow: 0 4px 10px #27AE6033, 0 0 0 0 #27AE6033, 0 0 0 5px #27AE6033, 0 0 0 10px #27AE6033;
+    }
+
+    100% {
+        -webkit-box-shadow: 0 4px 10px #27AE6033, 0 0 0 5px #27AE6033, 0 0 0 10px #27AE6033, 0 0 0 20px rgba(236, 139, 0, 0);
+        box-shadow: 0 4px 10px #27AE6033, 0 0 0 5px #27AE6033, 0 0 0 10px #27AE6033, 0 0 0 20px rgba(236, 139, 0, 0);
+    }
+}
+
+
+
+.cc-calto-action-ripple-cancel {
+    z-index: 99999;
+    background: #EB5757;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ffffff;
+    -webkit-animation: cc-calto-action-ripple-cancel 0.6s linear infinite;
+    animation: cc-calto-action-ripple-cancel 0.6s linear infinite;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cc-calto-action-ripple-cancel i {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 1rem;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+@-webkit-keyframes cc-calto-action-ripple-cancel {
+    0% {
+        -webkit-box-shadow: 0 4px 10px #eb575762, 0 0 0 0 #eb575762, 0 0 0 5px #eb575762, 0 0 0 10px #eb575762;
+        box-shadow: 0 4px 10px #eb575762, 0 0 0 0 #eb575762, 0 0 0 5px #eb575762, 0 0 0 10px #eb575762;
+    }
+
+    100% {
+        -webkit-box-shadow: 0 4px 10px #eb575762, 0 0 0 5px #eb575762, 0 0 0 10px #eb575762, 0 0 0 20px rgba(236, 139, 0, 0);
+        box-shadow: 0 4px 10px #eb575762, 0 0 0 5px #eb575762, 0 0 0 10px #eb575762, 0 0 0 20px rgba(236, 139, 0, 0);
+    }
+}
+
+@keyframes cc-calto-action-ripple-cancel {
+    0% {
+        -webkit-box-shadow: 0 4px 10px #eb575762, 0 0 0 0 #eb575762, 0 0 0 5px #eb575762, 0 0 0 10px #eb575762;
+        box-shadow: 0 4px 10px #eb575762, 0 0 0 0 #eb575762, 0 0 0 5px #eb575762, 0 0 0 10px #eb575762;
+    }
+
+    100% {
+        -webkit-box-shadow: 0 4px 10px #eb575762, 0 0 0 5px #eb575762, 0 0 0 10px #eb575762, 0 0 0 20px rgba(236, 139, 0, 0);
+        box-shadow: 0 4px 10px #eb575762, 0 0 0 5px #eb575762, 0 0 0 10px #eb575762, 0 0 0 20px rgba(236, 139, 0, 0);
+    }
+}
+
+/* ====================== end button income call ====================== */
