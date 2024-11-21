@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5]">
+
+  <aside id="separator-sidebar"
+    class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+    aria-label="Sidebar">
+    <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+      <ul class="space-y-2 font-medium">
+        <li>
+          <a href="#" class="flex items-center justify-center p-2">
+            <img src="./imgs/logo.png" alt="Estisharati">
+          </a>
+        </li>
+      </ul>
+      <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+        <li>
+          <a href="./index.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/home.svg">
+            <span class="ms-3">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="./feed.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/feed.svg">
+            <span class="ms-3">Feed</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/profile.svg">
+            <span class="ms-3">My Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="./appointments.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/appointments.svg">
+            <span class="ms-3">Appointments</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/courses.svg">
+            <span class="ms-3">My Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/consultants.svg">
+            <span class="ms-3">All Consultants</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/subscriptions.svg">
+            <span class="ms-3">Subscriptions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/saved.svg">
+            <span class="ms-3">Saved</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/contact.svg">
+            <span class="ms-3">Contact us</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/faq.svg">
+            <span class="ms-3">FAQ</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/terms.svg">
+            <span class="ms-3">Terms and conditions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/lang.svg">
+            <span class="ms-3">Language</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/logout.svg">
+            <span class="ms-3">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="px-5 xl:px-10 sm:ml-64">
+
+    <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+      <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+        aria-controls="separator-sidebar" type="button"
+        class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+          </path>
+        </svg>
+      </button>
+
+      <div class="relative flex-1">
+      </div>
+
+      <div class="flex gap-5 justify-between items-center">
+        <a href="#">
+          <img src="./imgs/notifications.svg">
+        </a>
+        <a href="#">
+          <img src="./imgs/profile-pic.png">
+        </a>
+      </div>
+    </header>
+
+    <section class=" bg-white px-5 lg:px-10 shadow-sm">
+
+      <div>
+        <h3 class="inline-block font-medium text-xl py-2 mt-3"> Terms and conditions </h3>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" class="my-5" width="100%" height="4" viewBox="0 0 1171 2"
+        fill="none">
+        <path opacity="0.1" d="M-5.77802e-05 0.777446L1171 0.777344" stroke="#2A2A2A" />
+      </svg>
+
+
+      <p class="text-[#000] leading-[205%] whitespace-pre-wrap -mt-4">
+Legal notice 
+We would like to inform you through the "ESTISHARATI" website that any attempt to use our services in an unauthorized or improper manner, or any attempt at fraud or theft involving the materials available on this website, may be considered a violation of copyright laws, trademark laws, advertising and privacy laws, telecommunications regulations, and any related laws. Anyone committing such acts may face legal consequences, and "ESTISHARATI" keeping the right to protect its property even if the act is committed by a service user.  
+Copyright 
+All information available on the "ESTISHARATI" website (collectively referred to as "ESTISHARATI’s Intellectual and Scientific Content") is provided solely by "ESTISHARATI." You are permitted to use, download, copy, and distribute the documents and graphics available on the site in accordance with the terms of the agreement with "ESTISHARATI." If there is no agreement between you and "ESTISHARATI," such documents and graphics may be used for personal, non-commercial purposes only, adhering to all copyright and intellectual property notices. Reproduction, display, distribution, or use of these documents for commercial purposes is prohibited without explicit written permission from "ESTISHARATI." 
+ Users Shares  
+Any information, materials, or ideas you transmit or post on the "ESTISHARATI" website are considered non-confidential and non-proprietary and will be handled according to the privacy policy in effect. Publishing illegal, threatening, defamatory, offensive, or sexually explicit content, or content that violates sanctities or any material that may conflict with applicable laws, is prohibited and may result in legal liability for the owner. "ESTISHARATI" has the right to monitor posts on the site but is not obligated to do so and disclaims responsibility for any content or communications from users. 
+Trademark 
+The trademarks, logos, and service marks displayed on the site are trademarks or registered trademarks of "ESTISHARATI" in the UAE and other countries. Brand names and other product names are registered trademarks of their respective owners. No content on the site should be interpreted as granting a license or right to use the displayed trademarks without permission from "ESTISHARATI" or the third parties owning these trademarks. Unauthorized use of trademarks or any other content displayed on the site is prohibited. 
+Software Information 
+Any software downloaded from the site is subject to the terms of use and the End User License Agreement. You should read and agree to the terms and conditions of the software license agreement before downloading or installing it. 
+Disclaimer 
+"ESTISHARATI" makes no representations or warranties regarding the accuracy of the information on the site or its suitability for any purpose and is not obligated to update the information. The information is provided "as is" and disclaims any express or implied warranties, including implied warranties of merchantability or fitness for a particular purpose or non-infringement of intellectual property rights. "ESTISHARATI" reserves the right to modify the site, products, and software at any time without prior notice. 
+ Liabilities 
+Under no circumstances shall "ESTISHARATI" or its suppliers be liable for any damages, whether direct, indirect, incidental, consequential, or punitive, including loss of profits or data related to the use of the site or its performance or any linked sites. Applicable laws may not allow the exclusion or limitation of certain damages, so the above limitations and exclusions may not apply to you. 
+Links to Other Websites 
+Links to third-party sites available on this site are provided for convenience only and may lead you away from the site. "ESTISHARATI " does not control these external sites, does not endorse them, and makes no representations or warranties regarding them. Accessing any third-party sites linked to this site is at your own risk. 
+"ESTISHARATI" reserves the right to modify this notice at any time without prior notice, and by browsing or using the website or the "ESTISHARATI" app, you implicitly agree to the terms and conditions. 
+ 
+ 
+ 
+Privacy Policy 
+This document represents our "Privacy Policy" and contains all details related to your privacy when using our services. This policy applies to visitors to our public sites that we own and operate, as well as to registered users on the associated app and website (collectively referred to as "the Platform"). This document aims to inform you of the policies and procedures we follow regarding the collection, use, and disclosure of information you provide through the Platform. 
+  
+The "Privacy Policy" forms part of our "Terms and Conditions." Terms used in this policy (e.g., "we," "our," or similar possessive pronouns, or "the Platform") have the same meaning as in the Terms of Use document. By using the Platform, you accept and implicitly agree to the "Terms of Use" and "Privacy Policy." If you do not agree to abide by this policy, you must stop using the Platform immediately. By accessing and using the Platform, you confirm that you have read, understood, and comply with all terms in the "Terms of Service" and "Privacy Policy." 
+Collection Data and Use of Information 
+To enable us to operate the Platform effectively and provide its services to you, we may collect, use, and store some information as outlined below. We assure you that we will not disclose your information to third parties except as detailed in this policy. The information we collect may come directly or indirectly from you while using the Platform and will not be used for marketing purposes or any other purposes beyond those specified in the Privacy Policy. 
+- Usage Data: We collect data about your visits and use of the website or app, including pages visited, time spent, errors, and issues encountered, as well as information about the browser or device used. 
+- Registration Data: We collect data from the initial registration process, such as pages you viewed, your responses to surveys, and registration details via Facebook or Google. 
+- Payment Data: We collect information about payments you make for our products or services, such as whether you have successfully completed a payment. 
+  
+- Login Data: We capture data about user login activities, such as login times and the number of messages sent or received, without including the content of the messages. 
+- Support Session Data: We collect data about scheduled support sessions, including the start time of the session and details of any changes made. 
+- User Data: Includes data such as name, age, email address, phone number, and emergency information. 
+We are committed to protecting this information and will not use or disclose it except as stated in the Privacy Policy, unless requested or consented by you. 
+Children Under 18 
+The Platform is not intended for children under 18. If we become aware that we have collected personal information about a child under 18, we will delete it without verifying parental consent. Please contact us if you believe we have information about a child under 18. 
+Information You Provide 
+We collect information you provide when registering, subscribing to our services, posting materials, or requesting additional services.  
+This information includes: 
+- Information provided during registration or subscription. 
+- Records of correspondence with us, including emails and phone numbers. 
+- Your responses to surveys for research purposes. 
+- Transaction details you conduct through the Platform. 
+- Searches you perform and usage behaviors. 
+You may also post information in public sections of our sites. Remember that it is your responsibility to maintain the privacy of posted information, as we do not control the actions of other parties who may view these posts. 
+Information Collection and Tracking Techniques 
+We use various techniques to collect information automatically, including: 
+- Cookies: Small files stored on your device. You can refuse to accept them through your browser settings, but some parts of the site may not function properly if you do. 
+- Web Beacons: Small electronic files used to track activity on web pages and email messages. 
+Third parties may use information collection techniques to track your online activity, and these parties may link the information they collect with your personal information. Information may be disclosed in cases such as company mergers or restructuring, where personal information is considered an asset that might be transferred. 
+ 
+Accessing and Updating Personal Information 
+You can review and change your personal information through your account page on the website. We can only delete personal information if we also delete your account. We may refuse requests to modify information if they would lead to legal violations or make the information inaccurate. 
+Data Security  
+We implement measures to protect your personal information from unauthorized access and tampering. Stored information is protected by secure servers and firewalls, and transactions are encrypted using SSL technology. 
+You are also responsible for maintaining the confidentiality of your password. We are not liable for any breaches of privacy settings or security measures we provide. 
+ 
+ Privacy Policy  
+We may update the privacy policy from time to time. The new version will be posted on this page, and we will send notifications of updates. Ensure you have an active email address and visit this page regularly for any changes.  
+The last review date of the privacy policy is mentioned at the top of the page. 
+Terms of Use 
+This platform should not be used as a substitute for medical advice, guidance, or other health services, or as a replacement for services provided by medical professionals or mental health specialists. Your use of this platform is at your own risk. Note that a diagnostic assessment by a healthcare specialist is required to determine the presence of depression symptoms or suicidal tendencies. 
+To the fullest extent permitted by law, the team is not liable (including for negligence) for any damages (including but not limited to: direct, indirect, punitive, physical, and consequential damages) arising from the use of this site or any linked sites, or the inability to use or access them. 
+Payment, Cancellation and Refund Policy 
+Purchases are made via prepayment through (PayPal, credit cards, bank transfers) or any other method we deem appropriate for the services provided on our website. Service provision begins after confirming the payment with applicable discount policies and offers. 
+Notes: -  
+PayPal currently does not support payments in UAE Dirhams. However, you can still use PayPal as a payment option on our website; all transactions processed through PayPal will be in US Dollars. If you wish to pay via PayPal, additional currency conversion fees may apply. 
+Service prices on this website are subject to change, and some services' prices are determined by "Estisharati" via email, social media platforms, or phone, and all prices are subject to VAT.  
+We disclaim legal responsibility for any errors in the payment process, whether from the client or the bank, and any hacking of credit cards or bank accounts of users. 
+Cancellation and Refund 
+The service fee is non-refundable after purchase, and payment is considered final acceptance of the service, unless otherwise agreed upon by Estisharati. 
+A full refund will be issued in case of a technical or operational error on our website or failure to provide the service. The refund amount will be for the service offered and does not include VAT or other fees. The client does not have the right to claim any compensation (refunds may take 20 to 30 business days). 
+The service will be canceled if the client does not attend the scheduled session within 10 minutes of the designated time. 
+“ESTISHARATI” the right to cancel the service at any time deemed appropriate in case of non-payment of the full amount without referring back to the client. 
+ 
+      </p>
+
+
+    </section>
+
+
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>

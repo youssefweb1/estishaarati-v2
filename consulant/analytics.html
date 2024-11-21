@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"
+        integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="bg-[#F5F5F5] ">
+
+    <aside id="separator-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+            <ul class="space-y-2 font-medium">
+                <li>
+                    <a href="#" class="flex items-center justify-center p-2">
+                        <img src="../imgs/logo.png" alt="Estisharati">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="./index.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/home.svg">
+                        <span class="ms-3">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./feed.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/feed.svg">
+                        <span class="ms-3">Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/profile.svg">
+                        <span class="ms-3">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./appointments.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/appointments.svg">
+                        <span class="ms-3">Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/courses.svg">
+                        <span class="ms-3">My Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/consultants.svg">
+                        <span class="ms-3">All Consultants</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/subscriptions.svg">
+                        <span class="ms-3">Subscriptions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/saved.svg">
+                        <span class="ms-3">Saved</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/contact.svg">
+                        <span class="ms-3">Contact us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/faq.svg">
+                        <span class="ms-3">FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/terms.svg">
+                        <span class="ms-3">Terms and conditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/lang.svg">
+                        <span class="ms-3">Language</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/logout.svg">
+                        <span class="ms-3">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="px-5 xl:px-10 sm:ml-64 ">
+
+        <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+            <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+                aria-controls="separator-sidebar" type="button"
+                class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="relative flex-1">
+            </div>
+
+            <div class="flex gap-5 justify-between items-center">
+                <a href="#">
+                    <img src="../imgs/notifications.svg">
+                </a>
+                <a href="#">
+                    <img src="../imgs/profile-pic.png">
+                </a>
+            </div>
+
+        </header>
+
+
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-lg min-h-[105px] p-4 flex items-center justify-between px-6 lg:px-4">
+                <div class="flex flex-col items-start gap-2">
+                    <span class="text-[12px] text-[#565656]">Total subscriptions</span>
+                    <span class="text-[18px] font-bold">1203</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12" fill="none">
+                    <path
+                        d="M8.75658 8.34139C9.65691 7.85569 10.363 7.10002 10.7647 6.19227C11.1665 5.28452 11.2412 4.27575 10.9774 3.32332C10.7135 2.37089 10.1258 1.52837 9.30602 0.927191C8.48623 0.326017 7.48043 0 6.44553 0C5.41064 0 4.40484 0.326017 3.58505 0.927191C2.76526 1.52837 2.17759 2.37089 1.91371 3.32332C1.64984 4.27575 1.72459 5.28452 2.12632 6.19227C2.52805 7.10002 3.23416 7.85569 4.13449 8.34139C2.46583 8.84771 1.0328 9.88825 0.0788483 11.2862C0.00855452 11.3887 -0.0160801 11.5136 0.0103636 11.6334C0.0368074 11.7532 0.112163 11.858 0.219854 11.925C0.327545 11.9919 0.458749 12.0153 0.584604 11.9901C0.710458 11.965 0.820652 11.8932 0.890946 11.7907C1.49263 10.9103 2.31585 10.1867 3.28586 9.68587C4.25588 9.18501 5.34197 8.92267 6.44553 8.92267C7.5491 8.92267 8.63519 9.18501 9.6052 9.68587C10.5752 10.1867 11.3984 10.9103 12.0001 11.7907C12.075 11.8821 12.1832 11.9433 12.3033 11.9622C12.4234 11.981 12.5465 11.9563 12.6483 11.8927C12.7501 11.8292 12.823 11.7315 12.8526 11.6192C12.8822 11.5068 12.8664 11.388 12.8082 11.2862C11.8552 9.88895 10.4237 8.84849 8.75658 8.34139ZM2.72847 4.46288C2.72847 3.76317 2.94647 3.07917 3.35491 2.49739C3.76334 1.9156 4.34387 1.46215 5.02307 1.19438C5.70228 0.926613 6.44966 0.856552 7.1707 0.993059C7.89174 1.12957 8.55405 1.46651 9.0739 1.96128C9.59374 2.45605 9.94775 3.08643 10.0912 3.77269C10.2346 4.45896 10.161 5.17029 9.87965 5.81674C9.59832 6.46319 9.12189 7.01572 8.51062 7.40446C7.89936 7.7932 7.1807 8.00069 6.44553 8.00069C5.4601 7.99946 4.5154 7.62634 3.81859 6.96314C3.12178 6.29994 2.72975 5.40079 2.72847 4.46288ZM19.7785 11.923C19.6709 11.9899 19.5398 12.0133 19.414 11.9882C19.2883 11.9631 19.1781 11.8915 19.1078 11.7892C18.5072 10.9086 17.6846 10.1851 16.7149 9.68458C15.7453 9.18406 14.6595 8.92244 13.5564 8.92359C13.4279 8.92359 13.3045 8.87497 13.2136 8.78843C13.1227 8.7019 13.0716 8.58452 13.0716 8.46214C13.0716 8.33975 13.1227 8.22238 13.2136 8.13584C13.3045 8.0493 13.4279 8.00069 13.5564 8.00069C14.1038 8.00016 14.6443 7.88458 15.1393 7.66221C15.6343 7.43984 16.0716 7.11617 16.4199 6.71431C16.7683 6.31245 17.019 5.84233 17.1544 5.33754C17.2897 4.83274 17.3062 4.30573 17.2027 3.79416C17.0993 3.28258 16.8784 2.79907 16.5558 2.37816C16.2333 1.95725 15.8171 1.60934 15.3369 1.35927C14.8567 1.10921 14.3244 0.963173 13.778 0.93159C13.2317 0.900008 12.6847 0.98366 12.1763 1.17657C12.1171 1.19965 12.0536 1.21134 11.9896 1.21098C11.9257 1.21061 11.8624 1.19819 11.8035 1.17444C11.7445 1.15068 11.6911 1.11606 11.6463 1.07257C11.6016 1.02908 11.5662 0.977583 11.5425 0.921044C11.5187 0.864505 11.5069 0.804043 11.5078 0.743147C11.5087 0.68225 11.5222 0.622123 11.5476 0.566232C11.573 0.51034 11.6098 0.459791 11.6559 0.417497C11.7019 0.375204 11.7563 0.342003 11.8159 0.31981C12.9187 -0.098671 14.1474 -0.103179 15.2536 0.307198C16.3598 0.717574 17.2611 1.51225 17.7755 2.53069C18.2899 3.54913 18.3791 4.71543 18.0249 5.794C17.6707 6.87256 16.8997 7.783 15.8675 8.34139C17.5361 8.84771 18.9692 9.88825 19.9231 11.2862C19.9925 11.389 20.0162 11.5137 19.9891 11.6331C19.9619 11.7524 19.8862 11.8567 19.7785 11.923Z"
+                        fill="#777777" />
+                </svg>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white rounded-lg min-h-[105px] p-4 flex items-center justify-between px-6 lg:px-4">
+                <div class="flex flex-col items-start gap-2">
+                    <span class="text-[12px] text-[#565656]">Active Appointments </span>
+                    <span class="text-[18px] font-bold">1203</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <path
+                        d="M1 8.80039C1 5.78359 1 4.27479 1.9376 3.33799C2.8744 2.40039 4.3832 2.40039 7.4 2.40039H10.6C13.6168 2.40039 15.1256 2.40039 16.0624 3.33799C17 4.27479 17 5.78359 17 8.80039V10.4004C17 13.4172 17 14.926 16.0624 15.8628C15.1256 16.8004 13.6168 16.8004 10.6 16.8004H7.4C4.3832 16.8004 2.8744 16.8004 1.9376 15.8628C1 14.926 1 13.4172 1 10.4004V8.80039Z"
+                        stroke="#777777" />
+                    <path d="M5.00002 2.4002V1.2002M13 2.4002V1.2002M1.40002 6.4002H16.6" stroke="#777777"
+                        stroke-linecap="round" />
+                    <path
+                        d="M13.8 12.8003C13.8 13.0125 13.7157 13.216 13.5656 13.366C13.4156 13.516 13.2121 13.6003 13 13.6003C12.7878 13.6003 12.5843 13.516 12.4343 13.366C12.2842 13.216 12.2 13.0125 12.2 12.8003C12.2 12.5881 12.2842 12.3846 12.4343 12.2346C12.5843 12.0846 12.7878 12.0003 13 12.0003C13.2121 12.0003 13.4156 12.0846 13.5656 12.2346C13.7157 12.3846 13.8 12.5881 13.8 12.8003ZM13.8 9.60029C13.8 9.81247 13.7157 10.0159 13.5656 10.166C13.4156 10.316 13.2121 10.4003 13 10.4003C12.7878 10.4003 12.5843 10.316 12.4343 10.166C12.2842 10.0159 12.2 9.81247 12.2 9.60029C12.2 9.38812 12.2842 9.18464 12.4343 9.03461C12.5843 8.88458 12.7878 8.80029 13 8.80029C13.2121 8.80029 13.4156 8.88458 13.5656 9.03461C13.7157 9.18464 13.8 9.38812 13.8 9.60029ZM9.79995 12.8003C9.79995 13.0125 9.71567 13.216 9.56564 13.366C9.41561 13.516 9.21212 13.6003 8.99995 13.6003C8.78778 13.6003 8.5843 13.516 8.43427 13.366C8.28424 13.216 8.19995 13.0125 8.19995 12.8003C8.19995 12.5881 8.28424 12.3846 8.43427 12.2346C8.5843 12.0846 8.78778 12.0003 8.99995 12.0003C9.21212 12.0003 9.41561 12.0846 9.56564 12.2346C9.71567 12.3846 9.79995 12.5881 9.79995 12.8003ZM9.79995 9.60029C9.79995 9.81247 9.71567 10.0159 9.56564 10.166C9.41561 10.316 9.21212 10.4003 8.99995 10.4003C8.78778 10.4003 8.5843 10.316 8.43427 10.166C8.28424 10.0159 8.19995 9.81247 8.19995 9.60029C8.19995 9.38812 8.28424 9.18464 8.43427 9.03461C8.5843 8.88458 8.78778 8.80029 8.99995 8.80029C9.21212 8.80029 9.41561 8.88458 9.56564 9.03461C9.71567 9.18464 9.79995 9.38812 9.79995 9.60029ZM5.79995 12.8003C5.79995 13.0125 5.71567 13.216 5.56564 13.366C5.41561 13.516 5.21212 13.6003 4.99995 13.6003C4.78778 13.6003 4.5843 13.516 4.43427 13.366C4.28424 13.216 4.19995 13.0125 4.19995 12.8003C4.19995 12.5881 4.28424 12.3846 4.43427 12.2346C4.5843 12.0846 4.78778 12.0003 4.99995 12.0003C5.21212 12.0003 5.41561 12.0846 5.56564 12.2346C5.71567 12.3846 5.79995 12.5881 5.79995 12.8003ZM5.79995 9.60029C5.79995 9.81247 5.71567 10.0159 5.56564 10.166C5.41561 10.316 5.21212 10.4003 4.99995 10.4003C4.78778 10.4003 4.5843 10.316 4.43427 10.166C4.28424 10.0159 4.19995 9.81247 4.19995 9.60029C4.19995 9.38812 4.28424 9.18464 4.43427 9.03461C4.5843 8.88458 4.78778 8.80029 4.99995 8.80029C5.21212 8.80029 5.41561 8.88458 5.56564 9.03461C5.71567 9.18464 5.79995 9.38812 5.79995 9.60029Z"
+                        fill="#777777" />
+                </svg>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded-lg min-h-[105px] p-4 flex items-center justify-between px-6 lg:px-4">
+                <div class="flex flex-col items-start gap-2">
+                    <span class="text-[12px] text-[#565656]"> My courses</span>
+                    <span class="text-[18px] font-bold">1203</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_440_2064)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.5 12C5.5 11.8674 5.55268 11.7402 5.64645 11.6464C5.74022 11.5527 5.86739 11.5 6 11.5H10C10.1326 11.5 10.2598 11.5527 10.3536 11.6464C10.4473 11.7402 10.5 11.8674 10.5 12C10.5 12.1326 10.4473 12.2598 10.3536 12.3536C10.2598 12.4473 10.1326 12.5 10 12.5H6C5.86739 12.5 5.74022 12.4473 5.64645 12.3536C5.55268 12.2598 5.5 12.1326 5.5 12Z"
+                            fill="#777777" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.80003 0.833496H10.2C10.3467 0.833496 10.4594 0.833496 10.5574 0.844163C10.9923 0.890757 11.3963 1.09134 11.6963 1.4097C11.9963 1.72806 12.1726 2.1432 12.1934 2.58016C12.5846 2.69811 12.9281 2.93745 13.1743 3.26355C13.4204 3.58966 13.5565 3.98562 13.5627 4.39416C13.9634 4.51416 14.3094 4.70416 14.592 5.0095C15.0267 5.4795 15.1614 6.0575 15.1667 6.7335C15.1714 7.3835 15.056 8.20483 14.912 9.22416L14.6187 11.3002C14.5067 12.0975 14.4154 12.7455 14.2734 13.2528C14.1247 13.7842 13.9054 14.2208 13.5 14.5568C13.0974 14.8902 12.62 15.0335 12.056 15.1015C11.51 15.1668 10.8234 15.1668 9.96936 15.1668H6.03069C5.17603 15.1668 4.48936 15.1668 3.94403 15.1015C3.37936 15.0335 2.90203 14.8902 2.49936 14.5568C2.09403 14.2208 1.8747 13.7835 1.72603 13.2528C1.58403 12.7455 1.4927 12.0975 1.38003 11.2995L1.08736 9.22416C0.944029 8.20416 0.827362 7.3835 0.832695 6.7335C0.838029 6.0575 0.972695 5.4795 1.40736 5.0095C1.69003 4.70416 2.03536 4.51483 2.43603 4.39416C2.44245 3.98565 2.57865 3.58978 2.82493 3.26379C3.07122 2.93781 3.41482 2.69862 3.80603 2.58083C3.82661 2.14375 4.00284 1.72845 4.30287 1.40995C4.6029 1.09146 5.00696 0.890776 5.44203 0.844163C5.54003 0.833496 5.6527 0.833496 5.7987 0.833496M3.4587 4.21883C4.07603 4.16683 4.83203 4.16683 5.74336 4.16683H10.2554C11.166 4.16683 11.922 4.16683 12.54 4.21883C12.4939 4.01467 12.3796 3.83229 12.216 3.70168C12.0525 3.57107 11.8493 3.5 11.64 3.50016H4.35936C3.91336 3.50016 3.55136 3.8135 3.46003 4.21883M10.4514 1.83883C10.818 1.8775 11.108 2.15083 11.1794 2.50016H4.82136C4.85673 2.32683 4.94634 2.16926 5.07722 2.05024C5.2081 1.93123 5.37346 1.85695 5.54936 1.83816C5.5867 1.83416 5.64003 1.8335 5.82736 1.8335H10.1727C10.3594 1.8335 10.4127 1.83416 10.4507 1.83816M2.14203 5.68816C2.34403 5.47016 2.64736 5.3255 3.23736 5.24683C3.83803 5.16683 4.6427 5.16616 5.78136 5.16616H10.2187C11.3574 5.16616 12.162 5.1675 12.7627 5.24683C13.3527 5.3255 13.656 5.47016 13.858 5.68816C14.0554 5.9015 14.1627 6.1915 14.1667 6.74083C14.1707 7.3075 14.0667 8.05416 13.916 9.12483L13.634 11.1248C13.5154 11.9655 13.4327 12.5468 13.3107 12.9828C13.1927 13.4028 13.0547 13.6262 12.862 13.7855C12.6667 13.9482 12.404 14.0522 11.9367 14.1082C11.4574 14.1655 10.8314 14.1662 9.9367 14.1662H6.06336C5.1687 14.1662 4.5427 14.1655 4.06336 14.1082C3.5967 14.0515 3.33336 13.9482 3.13803 13.7862C2.94536 13.6262 2.80736 13.4022 2.68936 12.9828C2.56736 12.5468 2.4847 11.9655 2.36603 11.1248L2.08403 9.12483C1.93336 8.05483 1.82936 7.3075 1.83336 6.74083C1.83736 6.1915 1.9447 5.90083 2.14203 5.68816Z"
+                            fill="#777777" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_440_2064">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white rounded-lg min-h-[105px] p-4 flex items-center justify-between px-6 lg:px-4">
+                <div class="flex flex-col items-start gap-2">
+                    <span class="text-[12px] text-[#565656]"> Accepted requests</span>
+                    <span class="text-[18px] font-bold">1203</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
+                    <path
+                        d="M4.01314 8.08144L1.32065 5.32189C1.17557 5.17319 0.978797 5.08966 0.77362 5.08966C0.568443 5.08966 0.37167 5.17319 0.226588 5.32189C0.0815062 5.47058 0 5.67226 0 5.88255C0 5.98667 0.0200104 6.08977 0.0588885 6.18597C0.0977666 6.28217 0.154751 6.36958 0.226588 6.4432L3.46999 9.76739C3.7726 10.0775 4.26144 10.0775 4.56405 9.76739L12.7734 1.35355C12.9185 1.20485 13 1.00318 13 0.79289C13 0.582602 12.9185 0.380928 12.7734 0.232232C12.6283 0.0835365 12.4316 0 12.2264 0C12.0212 0 11.8244 0.0835365 11.6793 0.232232L4.01314 8.08144Z"
+                        fill="#777777" />
+                </svg>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="bg-white rounded-lg min-h-[105px] p-4 flex items-center justify-between px-6 lg:px-4">
+                <div class="flex flex-col items-start gap-2">
+                    <span class="text-[12px] text-[#565656]"> Rejected requests</span>
+                    <span class="text-[18px] font-bold">1203</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                    <path
+                        d="M4.42633 4.99761L0.118638 0.688264C0.0426435 0.611937 1.33514e-05 0.508622 8.4877e-05 0.400946C0.000156403 0.29327 0.0429239 0.190011 0.11902 0.113786C0.271336 -0.0376738 0.539611 -0.0384387 0.693457 0.114551L5 4.4239L9.30807 0.113404C9.46115 -0.0376738 9.72942 -0.0369089 9.88174 0.114169C9.91954 0.151802 9.94947 0.196583 9.96977 0.2459C9.99008 0.295217 10.0003 0.348081 9.99999 0.401407C9.99999 0.51003 9.95789 0.611769 9.88174 0.687116L5.57405 4.99723L9.88135 9.30772C9.95736 9.38416 9.99993 9.48762 9.99971 9.59539C9.9995 9.70315 9.95652 9.80644 9.88021 9.88258C9.80634 9.95563 9.70187 9.9977 9.59394 9.9977H9.59165C9.48334 9.99732 9.37887 9.95487 9.30654 9.88105L5 5.5717L0.691925 9.8822C0.615767 9.95793 0.513968 10 0.406047 10C0.352681 10.0001 0.299813 9.98976 0.250481 9.96942C0.201148 9.94908 0.156326 9.91919 0.118591 9.88148C0.0808563 9.84376 0.0509529 9.79897 0.0306005 9.74967C0.0102482 9.70036 -0.000149727 9.64753 1.90735e-06 9.59419C1.90735e-06 9.48595 0.042098 9.38383 0.118638 9.30848L4.42633 4.99761Z"
+                        fill="#777777" />
+                </svg>
+            </div>
+
+        </div>
+
+
+<!-- Adding Chart.js Library -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<section class="bg-white px-5 lg:px-10 shadow-sm lg:pb-20 mt-10">
+
+    <!-- Filter to choose the time period -->
+    <div class="flex item-center justify-between mb-5">
+        <span for="dateFilter" class="text-md">Total Consultations</span>
+        <select id="dateFilter" class="p-2 border rounded-md text-sm">
+            <option value="last_10_days">Last 10 Days</option>
+            <option value="last_month">Last Month</option>
+            <option value="last_3_months">Last 3 Months</option>
+            <option value="last_6_months">Last 6 Months</option>
+            <option value="last_12_months">Last 12 Months</option>
+        </select>
+    </div>
+
+    <!-- Chart Area -->
+    <div class="w-full p-4 bg-white rounded-lg">
+        <canvas id="consultationsChart"></canvas>
+        <div id="dateInfo" class="text-center mt-4"></div> <!-- Area to display the selected date -->
+    </div>
+
+    <script>
+        // Function to format the date as "Nov 02"
+        function formatDate(date) {
+            const month = date.toLocaleString('en-US', { month: 'short' }); // Month in English
+            const day = date.getDate().toString().padStart(2, '0'); // Day with leading zero if needed
+            return `${month} ${day}`;
+        }
+
+        // Get the days and data based on the selected filter
+        function getDaysBasedOnFilter(filter) {
+            const daysLabels = [];
+            const currentDate = new Date();
+            let daysData = [];
+
+            if (filter === 'last_10_days') {
+                for (let i = 0; i < 10; i++) {
+                    const futureDate = new Date(currentDate);
+                    futureDate.setDate(currentDate.getDate() - i); // Previous days
+                    daysLabels.push(formatDate(futureDate));
+                    daysData.push(Math.floor(Math.random() * 50) + 40); // Random values between 40 and 100
+                }
+            } else if (filter === 'last_month') {
+                for (let i = 0; i < 50; i++) {
+                    const futureDate = new Date(currentDate);
+                    futureDate.setDate(currentDate.getDate() - i); // Previous days in the last month
+                    daysLabels.push(formatDate(futureDate));
+                    daysData.push(Math.floor(Math.random() * 50) + 40); // Random values between 40 and 100
+                }
+            } else if (filter === 'last_3_months') {
+                for (let i = 0; i < 90; i++) {
+                    const futureDate = new Date(currentDate);
+                    futureDate.setDate(currentDate.getDate() - i); // Previous days in the last 3 months
+                    daysLabels.push(formatDate(futureDate));
+                    daysData.push(Math.floor(Math.random() * 50) + 40); // Random values between 40 and 100
+                }
+            } else if (filter === 'last_6_months') {
+                for (let i = 0; i < 180; i++) {
+                    const futureDate = new Date(currentDate);
+                    futureDate.setDate(currentDate.getDate() - i); // Previous days in the last 6 months
+                    daysLabels.push(formatDate(futureDate));
+                    daysData.push(Math.floor(Math.random() * 50) + 40); // Random values between 40 and 100
+                }
+            } else if (filter === 'last_12_months') {
+                for (let i = 0; i < 365; i++) {
+                    const futureDate = new Date(currentDate);
+                    futureDate.setDate(currentDate.getDate() - i); // Previous days in the last 12 months
+                    daysLabels.push(formatDate(futureDate));
+                    daysData.push(Math.floor(Math.random() * 50) + 40); // Random values between 40 and 100
+                }
+            }
+
+            return { labels: daysLabels, data: daysData };
+        }
+
+        // Update the chart based on the selected filter
+        function updateChart() {
+            const filter = document.getElementById('dateFilter').value;
+            const { labels, data } = getDaysBasedOnFilter(filter);
+
+            const ctx = document.getElementById('consultationsChart').getContext('2d');
+            const consultationsChart = new Chart(ctx, {
+                type: 'bar', // Bar chart type
+                data: {
+                    labels: labels, // Labels for days
+                    datasets: [{
+                        label: 'Total Consultations', // Data label
+                        data: data, // Data values
+                        backgroundColor: '#F5773A', // Bar color
+                        borderWidth: 1, // Border width
+                        borderColor: '#F5773A', // Border color
+                        borderRadius: 3, // Slight border radius
+                        barThickness: 9, // Make the bars thinner
+                    }]
+                },
+                options: {
+                    responsive: true, // Responsive chart
+                    plugins: {
+                        legend: {
+                            display: false, // Hide the legend
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: {
+                                display: true, // Show grid
+                                drawBorder: false, // Do not draw the border
+                                drawOnChart: true, // Grid on the chart
+                                lineWidth: 1, // Grid line width
+                                color: '#e0e0e0', // Grid color
+                                borderDash: [5, 5], // Dashed grid lines
+                            }
+                        },
+                        y: {
+                            beginAtZero: true, // Start y-axis from 0
+                            max: 100, // Maximum value for y-axis
+                            ticks: {
+                                stepSize: 10, // Increase in steps of 10
+                                callback: function (value) {
+                                    if (value % 10 === 0) { // Show only multiples of 10 (10, 20, 30, etc.)
+                                        return value;
+                                    }
+                                }
+                            },
+                            grid: {
+                                display: true, // Show grid
+                                drawBorder: false, // Do not draw the border
+                                lineWidth: 1, // Grid line width
+                                color: '#e0e0e0', // Grid color
+                                borderDash: [5, 5], // Dashed grid lines
+                            }
+                        }
+                    },
+                    animation: {
+                        duration: 1000, // Animation duration (1 second)
+                        easing: 'easeInOutCubic', // Animation easing
+                    }
+                }
+            });
+        }
+
+        // Initialize the chart with the default filter
+        updateChart();
+
+        // Update the chart when the filter is changed
+        document.getElementById('dateFilter').addEventListener('change', updateChart);
+    </script>
+
+</section>
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>

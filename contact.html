@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5]">
+
+  <aside id="separator-sidebar"
+    class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+    aria-label="Sidebar">
+    <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+      <ul class="space-y-2 font-medium">
+        <li>
+          <a href="#" class="flex items-center justify-center p-2">
+            <img src="./imgs/logo.png" alt="Estisharati">
+          </a>
+        </li>
+      </ul>
+      <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+        <li>
+          <a href="./index.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/home.svg">
+            <span class="ms-3">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="./feed.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/feed.svg">
+            <span class="ms-3">Feed</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/profile.svg">
+            <span class="ms-3">My Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="./appointments.html"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/appointments.svg">
+            <span class="ms-3">Appointments</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/courses.svg">
+            <span class="ms-3">My Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/consultants.svg">
+            <span class="ms-3">All Consultants</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/subscriptions.svg">
+            <span class="ms-3">Subscriptions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/saved.svg">
+            <span class="ms-3">Saved</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/contact.svg">
+            <span class="ms-3">Contact us</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/faq.svg">
+            <span class="ms-3">FAQ</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/terms.svg">
+            <span class="ms-3">Terms and conditions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/lang.svg">
+            <span class="ms-3">Language</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+        <li>
+          <a href="#"
+            class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+            <img src="./imgs/logout.svg">
+            <span class="ms-3">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="px-5 xl:px-10 sm:ml-64">
+
+    <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+      <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+        aria-controls="separator-sidebar" type="button"
+        class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+          </path>
+        </svg>
+      </button>
+
+      <div class="relative flex-1">
+        <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+        <input type="search" placeholder="Search..."
+          class="px-4 pl-12 w-full border-gray-300 bg-gray-50 outline-none focus:outline-none focus:border-gray-400 rounded-full lg:max-w-[70%]">
+      </div>
+
+      <div class="flex gap-5 justify-between items-center">
+        <a href="#">
+          <img src="./imgs/notifications.svg">
+        </a>
+        <a href="#">
+          <img src="./imgs/profile-pic.png">
+        </a>
+      </div>
+    </header>
+
+    <section class=" bg-white px-5 lg:px-10 shadow-sm">
+
+      <div>
+        <h3 class="inline-block font-medium text-xl py-2 mt-3">Contact us </h3>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" class="my-5 lg:my-10" width="100%" height="4" viewBox="0 0 1171 2" fill="none">
+        <path opacity="0.1" d="M-5.77802e-05 0.777446L1171 0.777344" stroke="#2A2A2A" />
+      </svg>
+
+
+
+      <div class="flex flex-col-reverse lg:flex-row items-start justify-between gap-10 h-full w-full pb-10">
+        <div class="w-full lg:w-3/5 lg:pr-20">
+          <form action="#" class="space-y-8">
+            <!-- Full Name -->
+            <div>
+              <label for="full_name" class="block mb-2 text-sm font-medium text-gray-900">Full Name</label>
+              <input type="text" id="full_name"
+                class="block w-full p-2.5 text-sm text-gray-900 rounded-lg bg-[#EAEAEA] border border-[##EAEAEA]  border-0 focus:ring-gray-900focus:border-gray-900"
+                placeholder="Your Name" required>
+            </div>
+
+            <!-- Phone Number -->
+            <div>
+              <label for="phone_number" class="block mb-2 text-sm font-medium text-gray-900">Phone Number
+                (optional)</label>
+              <input type="tel" id="phone_number"
+                class="block w-full p-2.5 text-sm text-gray-900 rounded-lg bg-[#EAEAEA] border border-[##EAEAEA]  border-0 focus:ring-gray-900 focus:border-gray-900"
+                placeholder="+12 3456 7890">
+            </div>
+
+            <!-- Message -->
+            <div>
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Message</label>
+              <textarea id="message" rows="6"
+                class="block w-full p-2.5 text-sm text-gray-900 rounded-lg bg-[#EAEAEA] border border-[##EAEAEA]  border-0 focus:ring-gray-900 focus:border-gray-900"
+                placeholder="Leave a comment..."></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button
+              class="w-full md:w-[280px] h-[50px] rounded-full font-medium bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px]">
+              Send
+            </button>
+          </form>
+
+        </div>
+        <div class="w-full lg:w-2/5 lg:border-l-2 lg:border-l-gray-300 lg:pl-10 lg:min-h-[50vh] flex flex-col justify-start items-start gap-5">
+          <span for="full_name" class="block mb-2 text-[18px] font-medium text-gray-900"> Get In Touch</span>
+          <div class="flex items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19 5H6C5.20435 5 4.44129 5.31607 3.87868 5.87868C3.31607 6.44129 3 7.20435 3 8V17C3 17.7956 3.31607 18.5587 3.87868 19.1213C4.44129 19.6839 5.20435 20 6 20H19C19.7956 20 20.5587 19.6839 21.1213 19.1213C21.6839 18.5587 22 17.7956 22 17V8C22 7.20435 21.6839 6.44129 21.1213 5.87868C20.5587 5.31607 19.7956 5 19 5ZM19 6C19.5 6 19.94 6.17 20.28 6.47L12.5 11.5L4.72 6.47C5.06 6.17 5.5 6 6 6H19ZM12.5 12.71L20.87 7.28C20.95 7.5 21 7.75 21 8V17C21 17.5304 20.7893 18.0391 20.4142 18.4142C20.0391 18.7893 19.5304 19 19 19H6C5.46957 19 4.96086 18.7893 4.58579 18.4142C4.21071 18.0391 4 17.5304 4 17V8C4 7.75 4.05 7.5 4.13 7.28L12.5 12.71Z"
+                fill="#777777" />
+            </svg>
+            <span class="text-[#777] text-[16px]">Support@estisharati.net</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+              <path
+                d="M17.0625 19.25C17.4106 19.25 17.7444 19.1117 17.9906 18.8656C18.2367 18.6194 18.375 18.2856 18.375 17.9375V14.875C18.375 14.5269 18.2367 14.1931 17.9906 13.9469C17.7444 13.7008 17.4106 13.5625 17.0625 13.5625C16.0387 13.5625 15.0325 13.405 14.07 13.0813C13.8399 13.0086 13.5943 13.0004 13.3598 13.0575C13.1253 13.1145 12.911 13.2347 12.74 13.405L11.48 14.665C9.30321 13.4771 7.51414 11.688 6.32625 9.51125L7.5775 8.26C7.93625 7.91875 8.0675 7.41125 7.91 6.92125C7.595 5.9675 7.4375 4.96125 7.4375 3.9375C7.4375 3.5894 7.29922 3.25556 7.05308 3.00942C6.80694 2.76328 6.4731 2.625 6.125 2.625H3.0625C2.7144 2.625 2.38056 2.76328 2.13442 3.00942C1.88828 3.25556 1.75 3.5894 1.75 3.9375C1.75 12.3812 8.61875 19.25 17.0625 19.25ZM3.0625 3.5H6.125C6.24103 3.5 6.35231 3.54609 6.43436 3.62814C6.51641 3.71019 6.5625 3.82147 6.5625 3.9375C6.5625 5.0575 6.7375 6.15125 7.07875 7.1925C7.1225 7.315 7.11375 7.49 6.97375 7.63L5.25 9.345C6.69375 12.1713 8.81125 14.2887 11.6463 15.75L13.3525 14.0263C13.475 13.9038 13.6413 13.8687 13.7987 13.9125C14.8488 14.2625 15.9425 14.4375 17.0625 14.4375C17.1785 14.4375 17.2898 14.4836 17.3719 14.5656C17.4539 14.6477 17.5 14.759 17.5 14.875V17.9375C17.5 18.0535 17.4539 18.1648 17.3719 18.2469C17.2898 18.3289 17.1785 18.375 17.0625 18.375C9.1 18.375 2.625 11.9 2.625 3.9375C2.625 3.82147 2.67109 3.71019 2.75314 3.62814C2.83519 3.54609 2.94647 3.5 3.0625 3.5Z"
+                fill="#777777" />
+            </svg>
+            <span class="text-[#777] text-[16px]">(448)468-6941</span>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
