@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5]">
+
+    <aside id="separator-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto no-scrollbar bg-white relative pb-20">
+            <ul class="space-y-2 ">
+                <li>
+                    <a href="#" class="flex items-center justify-center p-2">
+                        <img src="../imgs/logo.png" alt="Estisharati">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="../index.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/home.svg">
+                        <span class="ms-3">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../feed.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/feed.svg">
+                        <span class="ms-3">Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/profile.svg">
+                        <span class="ms-3">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../appointments.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/appointments.svg">
+                        <span class="ms-3">Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/courses.svg">
+                        <span class="ms-3">My Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/consultants.svg">
+                        <span class="ms-3">All Consultants</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/subscriptions.svg">
+                        <span class="ms-3">Subscriptions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/saved.svg">
+                        <span class="ms-3">Saved</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/contact.svg">
+                        <span class="ms-3">Contact us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/faq.svg">
+                        <span class="ms-3">FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/terms.svg">
+                        <span class="ms-3">Terms and conditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/lang.svg">
+                        <span class="ms-3">Language</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="space-y-2  fixed bg-white bottom-5 z-50 shadow-md">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/logout.svg">
+                        <span class="ms-3">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="px-5 xl:px-10 sm:ml-64">
+
+        <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+            <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+                aria-controls="separator-sidebar" type="button"
+                class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="relative  items-center w-full hidden md:hidden lg:flex">
+                <div class="relative flex items-center gap-4">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="20" fill="white" />
+                        <path d="M12.25 20.2754L27.25 20.2754" stroke="#121826" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M18.2998 26.299L12.2498 20.275L18.2998 14.25" stroke="#121826" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    back
+
+                </div>
+
+                <div class="relative w-full h-[60px] flex-1 px-32">
+                    <div class="mb-4 bg-white rounded-[10px] w-full h-[60px] flex items-center justify-center px-4">
+                        <ul class="flex flex-nowrap -mb-px text-sm text-center overflow-x-auto no-scrollbar whitespace-nowrap max-w-full"
+                            id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content"
+                            data-tabs-active-classes="text-[#E6650D] hover:text-[#E6650D] border-[#E6650D]"
+                            data-tabs-inactive-classes="text-gray-500 hover:text-gray-600 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-[#E77E5C]"
+                            role="tablist">
+                            <li class="me-2" role="presentation">
+                                <button class="flex items-center gap-2 p-4 border-b-0 rounded-t-lg"
+                                    id="profile-styled-tab" data-tabs-target="#styled-profile" type="button" role="tab"
+                                    aria-controls="profile" aria-selected="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18"
+                                        fill="none">
+                                        <g filter="url(#filter0_b_491_4580)">
+                                            <path
+                                                d="M16.15 18H0.85C0.417888 18 0.0550233 17.6894 0.00595 17.2775L0 17.1819V15.3634C0 14.2422 0.439214 13.1712 1.23675 12.3477C2.03182 11.5267 3.11403 11.0216 4.284 10.9254L4.47525 10.9132L4.675 10.9092H12.325C13.5005 10.9092 14.6237 11.3271 15.4878 12.0858C16.3503 12.8431 16.8813 13.8748 16.983 14.9908L16.9958 15.1731L17 15.3634V17.1819C17 17.5975 16.6773 17.9467 16.2494 17.9943L16.15 18ZM4.69455 12.5454L4.5339 12.5486C3.00406 12.6159 1.78757 13.7598 1.70425 15.2095L1.7 15.3634V16.3638H15.3V15.3829L15.2966 15.2306C15.2258 13.7813 14.0189 12.6286 12.489 12.5495L12.325 12.5454H4.69455ZM8.5 8.90928C5.92219 8.90928 3.825 6.91075 3.825 4.45423C3.825 1.99816 5.92219 0 8.5 0C11.0778 0 13.175 1.99816 13.175 4.45423C13.175 6.91075 11.0778 8.90928 8.5 8.90928ZM8.5 1.63622C6.85958 1.63622 5.525 2.90038 5.525 4.45423C5.525 6.00854 6.85958 7.27306 8.5 7.27306C10.1404 7.27306 11.475 6.00854 11.475 4.45423C11.475 2.90038 10.1404 1.63622 8.5 1.63622Z"
+                                                fill="#E6650D" />
+                                        </g>
+                                        <defs>
+                                            <filter id="filter0_b_491_4580" x="-10" y="-10" width="37" height="38"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+                                                <feComposite in2="SourceAlpha" operator="in"
+                                                    result="effect1_backgroundBlur_491_4580" />
+                                                <feBlend mode="normal" in="SourceGraphic"
+                                                    in2="effect1_backgroundBlur_491_4580" result="shape" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                    Account</button>
+                            </li>
+                            <li class="me-2 px-10 " role="presentation">
+                                <button class="flex items-center gap-2  p-4 border-b-0 rounded-t-lg hover:text-main "
+                                    id="dashboard-styled-tab" data-tabs-target="#styled-dashboard" type="button"
+                                    role="tab" aria-controls="dashboard" aria-selected="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.25 9.303V8C5.25 6.20979 5.96116 4.4929 7.22703 3.22703C8.4929 1.96116 10.2098 1.25 12 1.25C13.7902 1.25 15.5071 1.96116 16.773 3.22703C18.0388 4.4929 18.75 6.20979 18.75 8V9.303C18.9767 9.31833 19.1907 9.33967 19.392 9.367C20.292 9.487 21.05 9.747 21.652 10.348C22.254 10.95 22.512 11.708 22.634 12.608C22.75 13.475 22.75 14.578 22.75 15.945V16.055C22.75 17.422 22.75 18.525 22.634 19.392C22.512 20.292 22.254 21.05 21.652 21.652C21.05 22.254 20.292 22.512 19.392 22.634C18.525 22.75 17.422 22.75 16.055 22.75H7.945C6.578 22.75 5.475 22.75 4.608 22.634C3.708 22.512 2.95 22.254 2.348 21.652C1.746 21.05 1.488 20.292 1.367 19.392C1.25 18.525 1.25 17.422 1.25 16.055V15.945C1.25 14.578 1.25 13.475 1.367 12.608C1.487 11.708 1.747 10.95 2.348 10.348C2.95 9.746 3.708 9.488 4.608 9.367C4.80867 9.33967 5.02267 9.31833 5.25 9.303ZM6.75 8C6.75 6.60761 7.30312 5.27225 8.28769 4.28769C9.27225 3.30312 10.6076 2.75 12 2.75C13.3924 2.75 14.7277 3.30312 15.7123 4.28769C16.6969 5.27225 17.25 6.60761 17.25 8V9.253C16.8767 9.25033 16.4783 9.24933 16.055 9.25H7.945C7.52233 9.25 7.124 9.251 6.75 9.253V8ZM3.409 11.409C3.686 11.132 4.074 10.952 4.809 10.853C5.563 10.752 6.565 10.75 8 10.75H16C17.435 10.75 18.436 10.752 19.192 10.853C19.926 10.952 20.314 11.133 20.591 11.409C20.868 11.686 21.048 12.074 21.147 12.809C21.248 13.564 21.25 14.565 21.25 16C21.25 17.435 21.248 18.436 21.147 19.192C21.048 19.926 20.867 20.314 20.591 20.591C20.314 20.868 19.926 21.048 19.191 21.147C18.436 21.248 17.435 21.25 16 21.25H8C6.565 21.25 5.563 21.248 4.808 21.147C4.074 21.048 3.686 20.867 3.409 20.591C3.132 20.314 2.952 19.926 2.853 19.191C2.752 18.436 2.75 17.435 2.75 16C2.75 14.565 2.752 13.563 2.853 12.808C2.952 12.074 3.133 11.686 3.409 11.409Z"
+                                            fill="#777777" />
+                                    </svg>
+                                    Password</button>
+                            </li>
+                            <li class="me-2" role="presentation">
+                                <button class="flex items-center gap-2  p-4 border-b-0 rounded-t-lg hover:text-main "
+                                    id="settings-styled-tab" data-tabs-target="#styled-settings" type="button"
+                                    role="tab" aria-controls="settings" aria-selected="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z"
+                                            stroke="#777777" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M12 16V12M12 8H11.99" stroke="#777777" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    Consultant Info </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-5 justify-between items-center">
+                <a href="#">
+                    <img src="../imgs/notifications.svg">
+                </a>
+                <a href="#">
+                    <img src="../imgs/profile-pic.png">
+                </a>
+            </div>
+        </header>
+
+
+
+        <div class="  items-center w-full flex-col md:flex-col gap-4S lg:hidden">
+            <div class=" flex items-center gap-4">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="white" />
+                    <path d="M12.25 20.2754L27.25 20.2754" stroke="#121826" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M18.2998 26.299L12.2498 20.275L18.2998 14.25" stroke="#121826" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                back
+
+            </div>
+
+            <div class=" w-full h-[60px] mt-5">
+                <div class="mb-4 bg-white rounded-[10px] w-full h-[60px] flex items-center justify-center px-4">
+                    <ul class="flex flex-nowrap -mb-px text-sm text-center overflow-x-auto no-scrollbar whitespace-nowrap max-w-full"
+                        id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content"
+                        data-tabs-active-classes="text-[#E6650D] hover:text-[#E6650D] border-[#E6650D]"
+                        data-tabs-inactive-classes="text-gray-500 hover:text-gray-600 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-[#E77E5C]"
+                        role="tablist">
+                        <li class="me-2" role="presentation">
+                            <button class="flex items-center gap-2 p-4 border-b-0 rounded-t-lg" id="profile-styled-tab"
+                                data-tabs-target="#styled-profile" type="button" role="tab" aria-controls="profile"
+                                aria-selected="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18"
+                                    fill="none">
+                                    <g filter="url(#filter0_b_491_4580)">
+                                        <path
+                                            d="M16.15 18H0.85C0.417888 18 0.0550233 17.6894 0.00595 17.2775L0 17.1819V15.3634C0 14.2422 0.439214 13.1712 1.23675 12.3477C2.03182 11.5267 3.11403 11.0216 4.284 10.9254L4.47525 10.9132L4.675 10.9092H12.325C13.5005 10.9092 14.6237 11.3271 15.4878 12.0858C16.3503 12.8431 16.8813 13.8748 16.983 14.9908L16.9958 15.1731L17 15.3634V17.1819C17 17.5975 16.6773 17.9467 16.2494 17.9943L16.15 18ZM4.69455 12.5454L4.5339 12.5486C3.00406 12.6159 1.78757 13.7598 1.70425 15.2095L1.7 15.3634V16.3638H15.3V15.3829L15.2966 15.2306C15.2258 13.7813 14.0189 12.6286 12.489 12.5495L12.325 12.5454H4.69455ZM8.5 8.90928C5.92219 8.90928 3.825 6.91075 3.825 4.45423C3.825 1.99816 5.92219 0 8.5 0C11.0778 0 13.175 1.99816 13.175 4.45423C13.175 6.91075 11.0778 8.90928 8.5 8.90928ZM8.5 1.63622C6.85958 1.63622 5.525 2.90038 5.525 4.45423C5.525 6.00854 6.85958 7.27306 8.5 7.27306C10.1404 7.27306 11.475 6.00854 11.475 4.45423C11.475 2.90038 10.1404 1.63622 8.5 1.63622Z"
+                                            fill="#E6650D" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_491_4580" x="-10" y="-10" width="37" height="38"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_491_4580" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_491_4580" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                                Account</button>
+                        </li>
+                        <li class="me-2 " role="presentation">
+                            <button class="flex items-center gap-2  p-4 border-b-0 rounded-t-lg hover:text-main "
+                                id="dashboard-styled-tab" data-tabs-target="#styled-dashboard" type="button" role="tab"
+                                aria-controls="dashboard" aria-selected="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.25 9.303V8C5.25 6.20979 5.96116 4.4929 7.22703 3.22703C8.4929 1.96116 10.2098 1.25 12 1.25C13.7902 1.25 15.5071 1.96116 16.773 3.22703C18.0388 4.4929 18.75 6.20979 18.75 8V9.303C18.9767 9.31833 19.1907 9.33967 19.392 9.367C20.292 9.487 21.05 9.747 21.652 10.348C22.254 10.95 22.512 11.708 22.634 12.608C22.75 13.475 22.75 14.578 22.75 15.945V16.055C22.75 17.422 22.75 18.525 22.634 19.392C22.512 20.292 22.254 21.05 21.652 21.652C21.05 22.254 20.292 22.512 19.392 22.634C18.525 22.75 17.422 22.75 16.055 22.75H7.945C6.578 22.75 5.475 22.75 4.608 22.634C3.708 22.512 2.95 22.254 2.348 21.652C1.746 21.05 1.488 20.292 1.367 19.392C1.25 18.525 1.25 17.422 1.25 16.055V15.945C1.25 14.578 1.25 13.475 1.367 12.608C1.487 11.708 1.747 10.95 2.348 10.348C2.95 9.746 3.708 9.488 4.608 9.367C4.80867 9.33967 5.02267 9.31833 5.25 9.303ZM6.75 8C6.75 6.60761 7.30312 5.27225 8.28769 4.28769C9.27225 3.30312 10.6076 2.75 12 2.75C13.3924 2.75 14.7277 3.30312 15.7123 4.28769C16.6969 5.27225 17.25 6.60761 17.25 8V9.253C16.8767 9.25033 16.4783 9.24933 16.055 9.25H7.945C7.52233 9.25 7.124 9.251 6.75 9.253V8ZM3.409 11.409C3.686 11.132 4.074 10.952 4.809 10.853C5.563 10.752 6.565 10.75 8 10.75H16C17.435 10.75 18.436 10.752 19.192 10.853C19.926 10.952 20.314 11.133 20.591 11.409C20.868 11.686 21.048 12.074 21.147 12.809C21.248 13.564 21.25 14.565 21.25 16C21.25 17.435 21.248 18.436 21.147 19.192C21.048 19.926 20.867 20.314 20.591 20.591C20.314 20.868 19.926 21.048 19.191 21.147C18.436 21.248 17.435 21.25 16 21.25H8C6.565 21.25 5.563 21.248 4.808 21.147C4.074 21.048 3.686 20.867 3.409 20.591C3.132 20.314 2.952 19.926 2.853 19.191C2.752 18.436 2.75 17.435 2.75 16C2.75 14.565 2.752 13.563 2.853 12.808C2.952 12.074 3.133 11.686 3.409 11.409Z"
+                                        fill="#777777" />
+                                </svg>
+                                Password</button>
+                        </li>
+                        <li class="me-2" role="presentation">
+                            <button class="flex items-center gap-2  p-4 border-b-0 rounded-t-lg hover:text-main "
+                                id="settings-styled-tab" data-tabs-target="#styled-settings" type="button" role="tab"
+                                aria-controls="settings" aria-selected="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z"
+                                        stroke="#777777" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12 16V12M12 8H11.99" stroke="#777777" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                Consultant Info </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="default-styled-tab-content">
+
+
+
+            <div class="hidden" id="styled-profile" role="tabpanel" aria-labelledby="profile-tab">
+                <section class="bg-white px-5 lg:px-10 shadow-sm">
+                    <div class="w-full flex items-center justify-between lg:mt-5">
+                        <div class=" flex items-center gap-4 ">
+                            <img class="w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] rounded-full object-cover"
+                                src="../imgs/consultant-2.jpg" alt="Floyd image">
+                            <div class="data">
+                                <p class="font-normal text-lg text-gray-900">Miles</p>
+                            </div>
+                        </div>
+
+
+                        <button id="prev-step"
+                            class="w-40 h-[40px] rounded-full  bg-transparent border border-[#F5773A] text-[#F5773A] text-[15px]">
+                            Change Photo
+                        </button>
+
+
+                    </div>
+
+
+
+                    <div class="w-full flex flex-col items-start border-t mt-10 pt-5">
+                        <!-- Header Section -->
+                        <div class="text-[#6A6565] text-left text-sm">
+                            Change your username and email here
+                        </div>
+
+                        <!-- Form Section -->
+                        <div class="flex flex-col items-start justify-start gap-6  w-full">
+
+                            <!-- Username Field -->
+                            <div class="relative w-full">
+                                <div class="relative w-full lg:max-w-sm mt-5">
+                                    <label for="username" class="block mb-[10px] text-[16px]  text-[#2A2A2A] text-left">
+                                        Username
+                                    </label>
+                                    <div class="absolute top-12 left-2 flex items-center pl-3 pointer-events-none">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            class="sm:w-[24px] sm:h-[24px] w-[20px] h-[20px] " viewBox="0 0 26 26"
+                                            fill="none">
+                                            <path
+                                                d="M13.2054 14.9146C14.5838 14.9146 15.9312 14.5058 17.0773 13.74C18.2233 12.9742 19.1166 11.8857 19.644 10.6123C20.1715 9.33878 20.3094 7.93749 20.0404 6.58561C19.7714 5.23373 19.1076 3.99198 18.1329 3.01738C17.1581 2.04279 15.9163 1.37914 14.5644 1.11035C13.2125 0.841564 11.8112 0.979716 10.5378 1.50734C9.26439 2.03496 8.17605 2.92835 7.41041 4.07452C6.64477 5.2207 6.23621 6.56818 6.23641 7.94657C6.23694 9.79461 6.97137 11.5668 8.27823 12.8735C9.58508 14.1801 11.3574 14.9143 13.2054 14.9146ZM19.3994 16.4636H16.7324C15.6262 16.9737 14.4226 17.2379 13.2044 17.2379C11.9862 17.2379 10.7826 16.9737 9.67641 16.4636H7.01041C5.36765 16.4636 3.79219 17.1161 2.63059 18.2777C1.46899 19.4393 0.816406 21.0148 0.816406 22.6576L0.816406 23.4316C0.816406 24.0477 1.06115 24.6385 1.4968 25.0742C1.93244 25.5098 2.52331 25.7546 3.13941 25.7546H23.2704C23.8865 25.7546 24.4774 25.5098 24.913 25.0742C25.3487 24.6385 25.5934 24.0477 25.5934 23.4316V22.6576C25.5934 21.8442 25.4332 21.0387 25.1219 20.2872C24.8106 19.5357 24.3544 18.8529 23.7792 18.2777C23.2041 17.7026 22.5212 17.2463 21.7697 16.9351C21.0183 16.6238 20.2128 16.4636 19.3994 16.4636Z"
+                                                fill="#D6D3D3" />
+                                        </svg>
+                                    </div>
+                                    <input type="text"
+                                        class="bg-white border pl-14 border-[#2A2A2A] rounded-[27px] w-full h-[50px] text-[#2A2A2A] text-left font-Questv1 sm:placeholder:text-[17px] placeholder:text-[15px] sm:text-[18px] text-[15px] placeholder:opacity-50"
+                                        value="Youssef Developer" required />
+                                </div>
+                            </div>
+
+                            <!-- Email Field -->
+                            <div class="relative w-full">
+                                <div class="relative w-full lg:max-w-sm">
+                                    <label for="email" class="block mb-[10px] text-[16px]  text-[#2A2A2A] text-left">
+                                        Email Address
+                                    </label>
+                                    <div class="absolute top-12 left-2 flex items-center pl-3 pointer-events-none">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            class="sm:w-[24px] sm:h-[24px] w-[20px] h-[20px] " viewBox="0 0 28 21"
+                                            fill="none">
+                                            <path
+                                                d="M0.529297 18.961V2.34795C0.529297 2.32862 0.55563 2.14595 0.608297 1.79996L9.5483 10.164L0.634297 19.538C0.578048 19.3501 0.542833 19.1566 0.529297 18.961ZM1.7163 0.646955C1.85746 0.585492 2.01039 0.555791 2.1643 0.559955H26.2423C26.4045 0.560769 26.5653 0.590222 26.7173 0.646955L17.7503 9.03996L16.5633 10.078L14.2163 12.183L11.8693 10.078L10.6823 9.03996L1.7163 0.646955ZM1.7423 20.664L10.7353 11.233L14.2163 14.319L17.6973 11.232L26.6903 20.663C26.5481 20.7211 26.3959 20.7506 26.2423 20.75H2.1643C2.01927 20.7491 1.87585 20.7195 1.7423 20.663V20.664ZM18.8843 10.164L27.7983 1.79996C27.8517 1.97769 27.8783 2.16238 27.8773 2.34795V18.961C27.8745 19.1558 27.848 19.3495 27.7983 19.538L18.8843 10.164Z"
+                                                fill="#D6D3D3" />
+                                        </svg>
+                                    </div>
+                                    <input type="text"
+                                        class="bg-white border pl-14 border-[#2A2A2A] rounded-[27px] w-full h-[50px] text-[#2A2A2A] text-left font-Questv1 sm:placeholder:text-[17px] placeholder:text-[15px] sm:text-[18px] text-[15px] placeholder:opacity-50"
+                                        value="rose.clark@mail.com" required />
+                                </div>
+                            </div>
+
+                            <!-- Password Section -->
+                            <div class="relative w-full mt-5 border-t mt-10">
+                                <div class="text-[#6A6565] text-left my-5 text-sm">
+                                    Enter your password to save changes
+                                </div>
+
+
+                                <div class="relative mb-4 w-full lg:max-w-sm ">
+
+                                    <label for="password"
+                                        class="block mb-[10px] ml-3 text-[16px]  text-[#2A2A2A] text-left">
+                                        Password
+                                    </label>
+
+                                    <div class="absolute top-12 left-2 flex items-center pl-3 pointer-events-none">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            class="sm:w-[24px] sm:h-[24px] w-[20px] h-[20px] " viewBox="0 0 23 27"
+                                            fill="none">
+                                            <path
+                                                d="M20.602 12.1062H19.4026V8.50829C19.4026 4.32066 15.9946 0.912598 11.8069 0.912598C7.61931 0.912598 4.21124 4.32066 4.21124 8.50829V12.1062H3.01192C1.68767 12.1062 0.613281 13.1806 0.613281 14.5049V24.0994C0.613281 25.4237 1.68767 26.4981 3.01192 26.4981H20.602C21.9262 26.4981 23.0006 25.4237 23.0006 24.0994V14.5049C23.0006 13.1806 21.9262 12.1062 20.602 12.1062ZM15.4049 12.1062H8.20898V8.50829C8.20898 6.52441 9.82306 4.91033 11.8069 4.91033C13.7908 4.91033 15.4049 6.52441 15.4049 8.50829V12.1062Z"
+                                                fill="#D6D3D3" />
+                                        </svg>
+                                    </div>
+
+                                    <input type="password" id="password"
+                                        class="bg-white border pl-14 border-[#2A2A2A] rounded-[27px] w-full h-[50px] text-[#2A2A2A] text-left font-Questv1 sm:placeholder:text-[17px] placeholder:text-[15px] sm:text-[18px] text-[15px] placeholder:opacity-50"
+                                        placeholder="Enter your password" required />
+
+                                    <button type="button" id="togglePassword"
+                                        class="absolute top-10 right-5 flex items-center cursor-pointer">
+                                        <i id="eyeIcon" class="sm:text-[28px] text-[25px] bi bi-eye "></i>
+                                    </button>
+                                </div>
+
+                                <!-- Forgot Password Link -->
+                                <a href=""
+                                    class="text-left  ml-1 sm:text-[16px] text-[15px] font-normal text-[#E77E5C]">
+                                    Forgot your password?
+                                </a>
+
+                                <!-- Submit Button -->
+                                <div class="w-full flex items-end justify-end lg:-mt-5 mb-5">
+                                    <button
+                                        class="w-full lg:w-40 h-[50px] rounded-full mt-6 font-medium bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px]">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="hidden" id="styled-dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+                <section class="bg-white px-5 shadow-sm">
+                    <div class="w-full flex items-center justify-between">
+                        <div class=" flex items-center gap-4 px-10 ">
+                            <img class="w-[80px] h-[80px] rounded-full object-cover" src="../imgs/consultant-2.jpg"
+                                alt="Floyd image">
+                            <div class="data">
+                                <p class="font-normal text-lg text-gray-900">Floyd Miles</p>
+                            </div>
+                        </div>
+
+
+                        <button id="prev-step"
+                            class="w-40 h-[40px] rounded-full  bg-transparent border border-[#F5773A] text-[#F5773A] text-[15px]">
+                            Change Photo
+                        </button>
+
+
+                    </div>
+                </section>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="hidden" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
+                <section class="bg-white px-5 shadow-sm">
+                    <div class="flex flex-col gap-5 md:flex-row items-center w-full justify-between">
+                        <!-- Username Field -->
+                        <div class="relative w-full">
+                            <div class="relative w-full lg:max-w-sm mt-5">
+                                <label for="username" class="block mb-[10px] text-[16px]  text-[#2A2A2A] text-left">
+                                    Job title*
+                                </label>
+                                <input type="text"
+                                    class="bg-white border pl-15 border-[#2A2A2A] rounded-[27px] w-full h-[50px] text-[#2A2A2A] text-left font-Questv1 sm:placeholder:text-[17px] placeholder:text-[15px] sm:text-[18px] text-[15px] placeholder:opacity-50"
+                                    value="Youssef Developer" required />
+                            </div>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="relative w-full">
+                            <div class="relative w-full lg:max-w-sm">
+                                <label for="email" class="block mb-[10px] text-[16px]  text-[#2A2A2A] text-left">
+                                    Consultation category*
+                                </label>
+                                <select name="" id=""
+                                    class="bg-white border pl-5 border-[#2A2A2A] rounded-[27px] w-full h-[50px] text-[#2A2A2A] text-left font-Questv1 sm:placeholder:text-[17px] placeholder:text-[15px] sm:text-[18px] text-[15px] placeholder:opacity-50">
+                                    <option value="">Select</option>
+                                    <option value="">Select</option>
+                                    <option value="">Select</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="flex flex-col gap-5 md:flex-row items-center w-full justify-between">
+                        <!--  Qualifications -->
+                        <div class="relative w-full">
+                            <div class="relative w-full lg:max-w-sm mt-5">
+                                <label for="username" class="block mb-[10px] text-[16px]  text-[#2A2A2A] text-left">
+                                    Qualifications*
+                                </label>
+
+                                <div class=" flex items-center gap-5">
+                                    <div
+                                        class="relative flex flex-col items-center justify-center w-[80px] h-[97px] rounded-[10px] bg-white shadow-[0px_8px_14.6px_rgba(0,0,0,0.08)]">
+
+                                        <button>
+                                            <div
+                                                class="absolute -right-1 top-0 flex items-center justify-center rounded-full w-[24px] h-[24px] bg-white filter drop-shadow-[0px_4px_4px_rgba(0,0,0,0.10)]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"
+                                                    viewBox="0 0 11 14" fill="none">
+                                                    <path
+                                                        d="M0.733334 11.7895C0.733334 12.3757 0.965117 12.938 1.3777 13.3526C1.79028 13.7671 2.34986 14 2.93333 14H8.06667C8.65014 14 9.20972 13.7671 9.6223 13.3526C10.0349 12.938 10.2667 12.3757 10.2667 11.7895V2.94737H11V0.736842H7.7L6.96667 0H4.03333L3.3 0.736842H0V2.94737H0.733334V11.7895ZM9.53333 2.94737V11.7895C9.53333 12.1803 9.37881 12.5552 9.10376 12.8315C8.8287 13.1079 8.45565 13.2632 8.06667 13.2632H2.93333C2.54435 13.2632 2.1713 13.1079 1.89624 12.8315C1.62119 12.5552 1.46667 12.1803 1.46667 11.7895V2.94737H9.53333ZM0.733334 2.21053V1.47368H3.66667L4.4 0.736842H6.6L7.33333 1.47368H10.2667V2.21053H0.733334ZM8.06667 4.42105H7.33333V11.7895H8.06667V4.42105ZM3.66667 4.42105H2.93333V11.7895H3.66667V4.42105Z"
+                                                        fill="#E84839" />
+                                                </svg>
+                                            </div>
+
+                                        </button>
+                                        <p class="text-md font-semibold">PDF</p>
+                                        <P class="text-sm mt-2">MY CV</P>
+                                    </div>
+
+
+                                    <div class="flex items-center justify-center w-[265px] max-w-[265px]">
+                                        <label for="dropzone-file"
+                                            class="flex flex-col items-center justify-center w-full h-[97px] border-2 border[#E6650D] border-dashed rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100 ">
+                                            <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                                                <svg class="w-8 h-8 mb-2 text-gray-500 dark:text-gray-400"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    viewBox="0 0 20 16">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2"
+                                                        d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
+                                                </svg>
+                                                <p class="text-md font-medium text-gray-900">Upload file</p>
+                                            </div>
+                                            <input id="dropzone-file" type="file" class="hidden" />
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--  Qualifications -->
+                        <div class="relative w-full">
+                            <div class="relative w-full lg:max-w-sm mt-5">
+                                <label for="username" class="block mb-[10px] text-[16px]  text-[#2A2A2A] text-left">
+                                    Preview video
+                                </label>
+
+                                <div class=" flex flex-col items-start gap-2">
+                                    <div class="flex items-start w-full">
+                                        <label for="dropzone-file"
+                                            class="flex flex-col items-center justify-center w-full h-[97px] border-2 border[#E6650D] border-dashed rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100 ">
+                                            <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                                                <svg class="w-8 h-8 mb-2 text-gray-500 dark:text-gray-400"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    viewBox="0 0 20 16">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2"
+                                                        d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
+                                                </svg>
+                                                <p class="text-md font-medium text-gray-900">Upload file</p>
+                                            </div>
+                                            <input id="dropzone-file" type="file" class="hidden" />
+                                        </label>
+                                    </div>
+                                    <p class="text-xs">Please upload a video of you introducing yourself</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Username Field -->
+                    <div class="relative w-full">
+                        <div class="relative w-full mt-5">
+                            <label for="username" class="block mb-[10px] text-[16px]  text-[#2A2A2A] text-left">
+                                Qualifications Brief
+                            </label>
+                            <textarea type="text"
+                                class="bg-white border pl-15 border-[#2A2A2A] rounded-[7px] w-full h-[100px] text-[#2A2A2A] text-left font-Questv1 sm:placeholder:text-[17px] placeholder:text-[15px] sm:text-[18px] text-[15px] placeholder:opacity-50"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Password Section -->
+                    <div class="relative w-full mt-5 border-t mt-10">
+                        <div class="text-[#6A6565] text-left my-5 text-sm">
+                            Enter your password to save changes
+                        </div>
+
+
+                        <div class="relative mb-4 w-full lg:max-w-sm ">
+
+                            <label for="password" class="block mb-[10px] ml-3 text-[16px]  text-[#2A2A2A] text-left">
+                                Password
+                            </label>
+
+                            <div class="absolute top-12 left-2 flex items-center pl-3 pointer-events-none">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="sm:w-[24px] sm:h-[24px] w-[20px] h-[20px] " viewBox="0 0 23 27" fill="none">
+                                    <path
+                                        d="M20.602 12.1062H19.4026V8.50829C19.4026 4.32066 15.9946 0.912598 11.8069 0.912598C7.61931 0.912598 4.21124 4.32066 4.21124 8.50829V12.1062H3.01192C1.68767 12.1062 0.613281 13.1806 0.613281 14.5049V24.0994C0.613281 25.4237 1.68767 26.4981 3.01192 26.4981H20.602C21.9262 26.4981 23.0006 25.4237 23.0006 24.0994V14.5049C23.0006 13.1806 21.9262 12.1062 20.602 12.1062ZM15.4049 12.1062H8.20898V8.50829C8.20898 6.52441 9.82306 4.91033 11.8069 4.91033C13.7908 4.91033 15.4049 6.52441 15.4049 8.50829V12.1062Z"
+                                        fill="#D6D3D3" />
+                                </svg>
+                            </div>
+
+                            <input type="password" id="password"
+                                class="bg-white border pl-14 border-[#2A2A2A] rounded-[27px] w-full h-[50px] text-[#2A2A2A] text-left font-Questv1 sm:placeholder:text-[17px] placeholder:text-[15px] sm:text-[18px] text-[15px] placeholder:opacity-50"
+                                placeholder="Enter your password" required />
+
+                            <button type="button" id="togglePassword"
+                                class="absolute top-10 right-5 flex items-center cursor-pointer">
+                                <i id="eyeIcon" class="sm:text-[28px] text-[25px] bi bi-eye "></i>
+                            </button>
+                        </div>
+
+                        <!-- Forgot Password Link -->
+                        <a href="" class="text-left  ml-1 sm:text-[16px] text-[15px] font-normal text-[#E77E5C]">
+                            Forgot your password?
+                        </a>
+
+                        <!-- Submit Button -->
+                        <div class="w-full flex items-end justify-end lg:-mt-5 mb-5">
+                            <button
+                                class="w-full lg:w-40 h-[50px] rounded-full mt-6 font-medium bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px]">
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

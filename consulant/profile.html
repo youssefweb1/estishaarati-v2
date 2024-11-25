@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/js/pagedone.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5]">
+
+    <aside id="separator-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+            <ul class="space-y-2 font-medium">
+                <li>
+                    <a href="#" class="flex items-center justify-center p-2">
+                        <img src="../imgs/logo.png" alt="Estisharati">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="../index.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/home.svg">
+                        <span class="ms-3">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../feed.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/feed.svg">
+                        <span class="ms-3">Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/profile.svg">
+                        <span class="ms-3">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../appointments.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/appointments.svg">
+                        <span class="ms-3">Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/courses.svg">
+                        <span class="ms-3">My Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/consultants.svg">
+                        <span class="ms-3">All Consultants</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/subscriptions.svg">
+                        <span class="ms-3">Subscriptions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/saved.svg">
+                        <span class="ms-3">Saved</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/contact.svg">
+                        <span class="ms-3">Contact us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/faq.svg">
+                        <span class="ms-3">FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/terms.svg">
+                        <span class="ms-3">Terms and conditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/lang.svg">
+                        <span class="ms-3">Language</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="../imgs/logout.svg">
+                        <span class="ms-3">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="px-5 xl:px-10 sm:ml-64">
+
+        <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+            <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+                aria-controls="separator-sidebar" type="button"
+                class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="relative flex-1">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+                <input type="search" placeholder="Search..."
+                    class="px-4 pl-12 w-full border-gray-300 bg-transparent outline-none focus:outline-none focus:border-gray-400 rounded-full lg:max-w-[70%]">
+            </div>
+
+            <div class="flex gap-5 justify-between items-center">
+                <a href="#">
+                    <img src="../imgs/notifications.svg">
+                </a>
+                <a href="#">
+                    <img src="../imgs/profile-pic.png">
+                </a>
+            </div>
+        </header>
+
+
+        <section>
+
+            <div class="flex flex-col lg:flex-row items-start -mt-10 gap-10">
+                <div class="w-full lg:w-1/3  bg-[#FFF] px-4 md:p-5 lg:p-6  bg-white p-5 shadow-sm rounded-[10px]">
+                    <div class="relative w-full h-[244px] max-h-[244px]">
+
+                        <img class="img w-full h-full object-cover rounded-[10px]"
+                            src="../imgs/Zencare-Headshot 1 (1).png" alt="">
+                        <div class="absolute top-3 left-3 cursor-pointer">
+                            <svg width="30" height="29" viewBox="0 0 30 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.12524" y="0.360711" width="27.7934" height="28.276" rx="6" fill="#171725"
+                                    fill-opacity="0.5" stroke="white" stroke-width="0.631579" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M19.6496 10.9629L20.5298 10.0677L18.5897 8.09473L17.7095 8.98986L19.6496 10.9629ZM18.5386 12.0926L16.5985 10.1196L9.34111 17.5003L8.89458 19.9274L11.2812 19.4733L18.5386 12.0926ZM21.6874 8.9853C22.2749 9.58283 22.2749 10.5516 21.6874 11.1491L12.2201 20.7771C12.1081 20.891 11.9649 20.9678 11.8092 20.9974L8.0562 21.7115C7.5135 21.8148 7.03818 21.3314 7.13972 20.7795L7.84189 16.9628C7.87102 16.8044 7.94654 16.6588 8.05854 16.5449L17.5258 6.91689C18.1133 6.31937 19.0659 6.31937 19.6535 6.91689L21.6874 8.9853ZM21.3463 21.7261H15.014C13.9716 21.7261 13.9716 20.1201 15.014 20.1201H21.3463C22.3886 20.1201 22.3886 21.7261 21.3463 21.7261Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center gap-1 mt-4">
+                        <p class="text-[#434343] text-[20px] font-[600] ">Mariam Moaomsmn</p>
+                        <span class="text-[#787E7D] text-[12px] font-[400]">Senior Consultant</span>
+                    </div>
+
+                    <div
+                        class="follow bg-white rounded-[10px]  flex items-center justify-center p-2 gap-5 shadow-sm mt-5">
+                        <div class="flex flex-col items-center">
+                            <p class="text-center font-[600] text-[12px]  text-[#92929D] mb-px">Following</p>
+                            <p class="text-[#44444F] font-medium">2,564</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <p class="text-center font-[600] text-[12px]  text-[#92929D] mb-px">Followers</p>
+                            <p class="text-[#44444F] font-medium">2,564</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center justify-between mt-5">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"
+                                fill="none">
+                                <path
+                                    d="M6.48859 0.418355C6.74179 0.165477 7.08057 0.01668 7.43809 0.00131956C7.79561 -0.0140409 8.1459 0.105151 8.41986 0.33538L8.51141 0.41907L9.87046 1.77743H11.7917C12.1525 1.77749 12.4999 1.91389 12.7644 2.15928C13.0289 2.40468 13.1909 2.74095 13.218 3.10073L13.2223 3.20803V5.12933L14.5813 6.4884C14.8344 6.74165 14.9833 7.08058 14.9987 7.43827C15.014 7.79597 14.8947 8.14642 14.6643 8.42043L14.5806 8.51127L13.2216 9.87034V11.7916C13.2217 12.1526 13.0854 12.5002 12.84 12.7648C12.5946 13.0295 12.2582 13.1916 11.8983 13.2187L11.7917 13.2222H9.87117L8.51213 14.5813C8.25889 14.8344 7.91996 14.9833 7.56228 14.9987C7.20459 15.014 6.85415 14.8947 6.58014 14.6643L6.4893 14.5813L5.13026 13.2222H3.20829C2.84737 13.2224 2.49975 13.086 2.23511 12.8406C1.97046 12.5952 1.80836 12.2588 1.78129 11.8989L1.77771 11.7916V9.87034L0.418672 8.51127C0.1656 8.25803 0.0166801 7.9191 0.00131855 7.5614C-0.014043 7.20371 0.105271 6.85325 0.335699 6.57924L0.418672 6.4884L1.77771 5.12933V3.20803C1.77778 2.84723 1.91417 2.49978 2.15956 2.23528C2.40495 1.97078 2.74122 1.80878 3.10099 1.78172L3.20829 1.77743H5.12954L6.48859 0.418355ZM7.5 1.43122L6.14096 2.79029C5.90336 3.02752 5.58989 3.17363 5.25543 3.20302L5.12954 3.20803H3.20829V5.12933C3.20837 5.46544 3.09011 5.79086 2.87425 6.04849L2.78913 6.14148L1.43009 7.50055L2.78913 8.85891C3.02662 9.0964 3.17297 9.40989 3.20256 9.74445L3.20829 9.87034V11.7916H5.12954C5.46565 11.7916 5.79106 11.9098 6.04869 12.1257L6.14167 12.2108L7.5 13.5699L8.85904 12.2108C9.09653 11.9733 9.41001 11.827 9.74457 11.7974L9.87046 11.7916H11.7917V9.87034C11.7916 9.53423 11.9099 9.20881 12.1258 8.95118L12.2109 8.85819L13.5699 7.49984L12.2109 6.14076C11.9734 5.90327 11.827 5.58978 11.7974 5.25522L11.7917 5.12933V3.20803H9.87046C9.53435 3.20812 9.20894 3.08985 8.95131 2.87398L8.85833 2.78886L7.49928 1.42979L7.5 1.43122ZM9.70308 5.34249C9.8318 5.2142 10.0045 5.13972 10.1862 5.13417C10.3678 5.12863 10.5448 5.19243 10.6811 5.31262C10.8174 5.43282 10.9028 5.60039 10.9201 5.78131C10.9373 5.96222 10.885 6.14292 10.7739 6.28669L10.7138 6.35392L7.22318 9.84459C7.0869 9.98105 6.90525 10.0627 6.71273 10.074C6.52021 10.0854 6.33023 10.0256 6.17887 9.90611L6.1102 9.84531L4.39065 8.12572C4.261 7.9973 4.18534 7.82417 4.17916 7.64179C4.17297 7.4594 4.23672 7.28155 4.35737 7.14463C4.47801 7.00771 4.64643 6.92209 4.82814 6.90528C5.00985 6.88846 5.19111 6.94174 5.33483 7.0542L5.40207 7.11357L6.66669 8.37823L9.70308 5.34249Z"
+                                    fill="#84AA44" />
+                            </svg>
+                            <span class="text-[#777777] text-[12px] ">Professional
+                            </span>
+                        </div>
+
+                        <div class="flex items-center ">
+
+
+                            <div class="flex items-center">
+                                <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                    <path
+                                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                </svg>
+                                <p class="ms-1 text-[12px] text-[#777777] ">4.95</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="flex items-center ">
+                            <button>
+                                <svg width="88" height="24" viewBox="0 0 88 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="1" width="85.6477" height="22" rx="11" fill="white"
+                                        stroke="#84AA44" />
+                                    <path
+                                        d="M21.3658 14.58H18.4558L17.9558 16H16.7658L19.2558 9.04H20.5758L23.0658 16H21.8658L21.3658 14.58ZM21.0458 13.65L19.9158 10.42L18.7758 13.65H21.0458ZM27.2784 14.98L28.8384 10.49H30.0484L27.9484 16H26.5884L24.4984 10.49H25.7184L27.2784 14.98ZM31.5302 13.22C31.5302 12.6667 31.6435 12.1767 31.8702 11.75C32.1035 11.3233 32.4168 10.9933 32.8102 10.76C33.2102 10.52 33.6502 10.4 34.1302 10.4C34.5635 10.4 34.9402 10.4867 35.2602 10.66C35.5868 10.8267 35.8468 11.0367 36.0402 11.29V10.49H37.1902V16H36.0402V15.18C35.8468 15.44 35.5835 15.6567 35.2502 15.83C34.9168 16.0033 34.5368 16.09 34.1102 16.09C33.6368 16.09 33.2035 15.97 32.8102 15.73C32.4168 15.4833 32.1035 15.1433 31.8702 14.71C31.6435 14.27 31.5302 13.7733 31.5302 13.22ZM36.0402 13.24C36.0402 12.86 35.9602 12.53 35.8002 12.25C35.6468 11.97 35.4435 11.7567 35.1902 11.61C34.9368 11.4633 34.6635 11.39 34.3702 11.39C34.0768 11.39 33.8035 11.4633 33.5502 11.61C33.2968 11.75 33.0902 11.96 32.9302 12.24C32.7768 12.5133 32.7002 12.84 32.7002 13.22C32.7002 13.6 32.7768 13.9333 32.9302 14.22C33.0902 14.5067 33.2968 14.7267 33.5502 14.88C33.8102 15.0267 34.0835 15.1 34.3702 15.1C34.6635 15.1 34.9368 15.0267 35.1902 14.88C35.4435 14.7333 35.6468 14.52 35.8002 14.24C35.9602 13.9533 36.0402 13.62 36.0402 13.24ZM40.2675 9.76C40.0608 9.76 39.8875 9.69 39.7475 9.55C39.6075 9.41 39.5375 9.23667 39.5375 9.03C39.5375 8.82333 39.6075 8.65 39.7475 8.51C39.8875 8.37 40.0608 8.3 40.2675 8.3C40.4675 8.3 40.6375 8.37 40.7775 8.51C40.9175 8.65 40.9875 8.82333 40.9875 9.03C40.9875 9.23667 40.9175 9.41 40.7775 9.55C40.6375 9.69 40.4675 9.76 40.2675 9.76ZM40.8275 10.49V16H39.6875V10.49H40.8275ZM44.4642 8.6V16H43.3242V8.6H44.4642ZM46.5809 13.22C46.5809 12.6667 46.6943 12.1767 46.9209 11.75C47.1543 11.3233 47.4676 10.9933 47.8609 10.76C48.2609 10.52 48.7009 10.4 49.1809 10.4C49.6143 10.4 49.9909 10.4867 50.3109 10.66C50.6376 10.8267 50.8976 11.0367 51.0909 11.29V10.49H52.2409V16H51.0909V15.18C50.8976 15.44 50.6343 15.6567 50.3009 15.83C49.9676 16.0033 49.5876 16.09 49.1609 16.09C48.6876 16.09 48.2543 15.97 47.8609 15.73C47.4676 15.4833 47.1543 15.1433 46.9209 14.71C46.6943 14.27 46.5809 13.7733 46.5809 13.22ZM51.0909 13.24C51.0909 12.86 51.0109 12.53 50.8509 12.25C50.6976 11.97 50.4943 11.7567 50.2409 11.61C49.9876 11.4633 49.7143 11.39 49.4209 11.39C49.1276 11.39 48.8543 11.4633 48.6009 11.61C48.3476 11.75 48.1409 11.96 47.9809 12.24C47.8276 12.5133 47.7509 12.84 47.7509 13.22C47.7509 13.6 47.8276 13.9333 47.9809 14.22C48.1409 14.5067 48.3476 14.7267 48.6009 14.88C48.8609 15.0267 49.1343 15.1 49.4209 15.1C49.7143 15.1 49.9876 15.0267 50.2409 14.88C50.4943 14.7333 50.6976 14.52 50.8509 14.24C51.0109 13.9533 51.0909 13.62 51.0909 13.24ZM55.8783 11.31C56.0716 11.0433 56.3349 10.8267 56.6683 10.66C57.0083 10.4867 57.3849 10.4 57.7983 10.4C58.2849 10.4 58.7249 10.5167 59.1183 10.75C59.5116 10.9833 59.8216 11.3167 60.0483 11.75C60.2749 12.1767 60.3883 12.6667 60.3883 13.22C60.3883 13.7733 60.2749 14.27 60.0483 14.71C59.8216 15.1433 59.5083 15.4833 59.1083 15.73C58.7149 15.97 58.2783 16.09 57.7983 16.09C57.3716 16.09 56.9916 16.0067 56.6583 15.84C56.3316 15.6733 56.0716 15.46 55.8783 15.2V16H54.7383V8.6H55.8783V11.31ZM59.2283 13.22C59.2283 12.84 59.1483 12.5133 58.9883 12.24C58.8349 11.96 58.6283 11.75 58.3683 11.61C58.1149 11.4633 57.8416 11.39 57.5483 11.39C57.2616 11.39 56.9883 11.4633 56.7283 11.61C56.4749 11.7567 56.2683 11.97 56.1083 12.25C55.9549 12.53 55.8783 12.86 55.8783 13.24C55.8783 13.62 55.9549 13.9533 56.1083 14.24C56.2683 14.52 56.4749 14.7333 56.7283 14.88C56.9883 15.0267 57.2616 15.1 57.5483 15.1C57.8416 15.1 58.1149 15.0267 58.3683 14.88C58.6283 14.7267 58.8349 14.5067 58.9883 14.22C59.1483 13.9333 59.2283 13.6 59.2283 13.22ZM63.6556 8.6V16H62.5156V8.6H63.6556ZM71.2023 13.11C71.2023 13.3167 71.189 13.5033 71.1623 13.67H66.9523C66.9857 14.11 67.149 14.4633 67.4423 14.73C67.7357 14.9967 68.0957 15.13 68.5223 15.13C69.1357 15.13 69.569 14.8733 69.8223 14.36H71.0523C70.8857 14.8667 70.5823 15.2833 70.1423 15.61C69.709 15.93 69.169 16.09 68.5223 16.09C67.9957 16.09 67.5223 15.9733 67.1023 15.74C66.689 15.5 66.3623 15.1667 66.1223 14.74C65.889 14.3067 65.7723 13.8067 65.7723 13.24C65.7723 12.6733 65.8857 12.1767 66.1123 11.75C66.3457 11.3167 66.669 10.9833 67.0823 10.75C67.5023 10.5167 67.9823 10.4 68.5223 10.4C69.0423 10.4 69.5057 10.5133 69.9123 10.74C70.319 10.9667 70.6357 11.2867 70.8623 11.7C71.089 12.1067 71.2023 12.5767 71.2023 13.11ZM70.0123 12.75C70.0057 12.33 69.8557 11.9933 69.5623 11.74C69.269 11.4867 68.9057 11.36 68.4723 11.36C68.079 11.36 67.7423 11.4867 67.4623 11.74C67.1823 11.9867 67.0157 12.3233 66.9623 12.75H70.0123Z"
+                                        fill="#84AA44" />
+                                </svg>
+
+                            </button>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                    <div class="follow bg-white rounded-[10px]  flex items-center justify-between p-2 shadow-sm mt-5">
+                        <div class="flex flex-col items-center">
+                            <p class="text-center font-[600] text-[12px]  text-[#92929D] mb-px">Consultations</p>
+                            <p class="text-[#44444F] font-[500] mt-2">9064</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <p class="text-center font-[600] text-[12px]  text-[#92929D] mb-px">Experience</p>
+                            <p class="text-[#44444F] font-[500] mt-2">8+ yrs</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <p class="text-center font-[600] text-[12px]  text-[#92929D] mb-px">Clients</p>
+                            <p class="text-[#44444F] font-[500] mt-2">564</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="follow bg-white rounded-[10px] p-2 shadow-sm mt-5">
+                        <span
+                            class="text-[#434343] text-[12px] text-center flex py-3 items-center justify-center font-[500]">Consultation
+                            Prices (By Hour)</span>
+                        <div class="flex items-center justify-between ">
+                            <div class="flex flex-col items-center">
+                                <p class="text-center font-[600] text-[12px]  text-[#92929D] mb-px">Text</p>
+                                <p class="text-[#84AA44] font-[500] mt-2">10$</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <p class="text-center font-[600] text-[12px]  text-[#92929D] mb-px">Voice</p>
+                                <p class="text-[#84AA44] font-[500] mt-2">30$</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <p class="text-center font-[600] text-[12px]  text-[#92929D] mb-px">Video</p>
+                                <p class="text-[#84AA44] font-[500] mt-2">50$</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="follow bg-white rounded-[10px] p-2 shadow-sm mt-5 flex flex-col">
+                        <span class="text-[#303535] text-[14px] py-3 font-[500]">About Consultation</span>
+
+
+                        <span class="text-[#787E7D] text-[12px] py-1 font-[400]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptatibus a ducimus porro doloremque quisquam vero ut, fuga aliquam
+                            alias magni, dolore voluptatum eum et impedit quae. Harum quae molestiae dolores.</span>
+
+                    </div>
+
+                </div>
+
+                <div class="w-full lg:w-2/3">
+                    <div class="w-full flex flex-col gap-6 pb-6">
+
+                        <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+                            <div class="flex gap-4 items-center">
+                                <div
+                                    class="min-w-[50px] min-h-[50px] rounded-full overflow-hidden grid place-items-center">
+                                    <img src="../imgs/profile-pic.png">
+                                </div>
+                                <input type="text" placeholder="What are you thinking?"
+                                    class="flex-1 rounded-full border border-gray-400 text-sm bg-gray-100 opacity-80 w-full">
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-5">
+                                    <button data-modal-target="static-modal-post" data-modal-toggle="static-modal-post"
+                                        type="button" class="flex gap-2 items-center">
+                                        <img src="../imgs/img.svg">
+                                        <span>Image / Video</span>
+                                    </button>
+                                    <button data-modal-target="static-modal-post" data-modal-toggle="static-modal-post"
+                                        type="button" class="flex gap-2 items-center">
+                                        <img src="../imgs/feeling.svg">
+                                        <span>Feeling</span>
+                                    </button>
+                                </div>
+
+                                <button id="submit-step"
+                                    class=" px-20 h-[39px] rounded-full font-medium bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px]">
+                                    Post
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+                            <div class="flex gap-4 items-start">
+                                <div class="flex gap-3 flex-col">
+                                    <div class="flex justify-between items-center">
+                                        <div class="flex items-center gap-3">
+                                            <img src="../imgs/profile-pic.png">
+                                            <h1 class="font-medium text-lg">John Doe</h1>
+                                        </div>
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                    </div>
+                                    <p class="leading-[1.6] text-gray-500 text-sm">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet
+                                        tenetur, consectetur
+                                        veniam facilis! Temporibus numquam quaerat et praesentium!
+                                    </p>
+                                    <div class="flex justify-between gap-5">
+                                        <div class="flex gap-5">
+                                            <button class="flex gap-1 items-center">
+                                                <i class="fa-regular fa-heart text-main"></i>
+                                                <span>2</span>
+                                            </button>
+                                            <button data-modal-target="static-modal" data-modal-toggle="static-modal"
+                                                type="button" class="flex gap-1 items-center">
+                                                <i class="fa-regular fa-comment text-main"></i>
+                                                <span>1</span>
+                                            </button>
+                                        </div>
+                                        <button>
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-6">
+                            <div class="flex gap-4 items-start">
+                                <div class="flex gap-3 flex-col">
+                                    <div class="flex justify-between items-center">
+                                        <div class="flex items-center gap-3">
+                                            <img src="../imgs/profile-pic.png">
+                                            <h1 class="font-medium text-lg">John Doe</h1>
+                                        </div>
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                    </div>
+                                    <p class="leading-[1.6] text-gray-500 text-sm">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vero eveniet
+                                        tenetur, consectetur
+                                        veniam facilis! Temporibus numquam quaerat et praesentium!
+                                    </p>
+
+                                    <div class="w-full overflow-hidden rounded-md grid place-items-center">
+                                        <img src="../imgs/post.jpg" class="w-full">
+                                    </div>
+                                    <div class="flex justify-between gap-5">
+                                        <div class="flex gap-5">
+                                            <button class="flex gap-1 items-center">
+                                                <i class="fa-regular fa-heart text-main"></i>
+                                                <span>2</span>
+                                            </button>
+                                            <button class="flex gap-1 items-center">
+                                                <i class="fa-regular fa-comment text-main"></i>
+                                                <span>1</span>
+                                            </button>
+                                        </div>
+                                        <button>
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

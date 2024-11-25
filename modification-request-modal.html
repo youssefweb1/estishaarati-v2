@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-[#F5F5F5]">
+
+    <aside id="separator-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-white relative pb-20">
+            <ul class="space-y-2 font-medium">
+                <li>
+                    <a href="#" class="flex items-center justify-center p-2">
+                        <img src="./imgs/logo.png" alt="Estisharati">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-100">
+                <li>
+                    <a href="./index.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg  hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/home.svg">
+                        <span class="ms-3">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./feed.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/feed.svg">
+                        <span class="ms-3">Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/profile.svg">
+                        <span class="ms-3">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./appointments.html"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/appointments.svg">
+                        <span class="ms-3">Appointments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/courses.svg">
+                        <span class="ms-3">My Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/consultants.svg">
+                        <span class="ms-3">All Consultants</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/subscriptions.svg">
+                        <span class="ms-3">Subscriptions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 py-3 text-gray-600 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/saved.svg">
+                        <span class="ms-3">Saved</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pt-4 mt-4 space-y-2 border-t border-gray-100">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/contact.svg">
+                        <span class="ms-3">Contact us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3  rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/faq.svg">
+                        <span class="ms-3">FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/terms.svg">
+                        <span class="ms-3">Terms and conditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/lang.svg">
+                        <span class="ms-3">Language</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="space-y-2 font-medium fixed bg-white bottom-5 z-50 shadow-md">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-600 py-3 rounded-lg hover:bg-gray-100 hover:text-main transition-all duration-200 group">
+                        <img src="./imgs/logout.svg">
+                        <span class="ms-3">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="px-5 xl:px-10 sm:ml-64">
+
+        <header class="py-5 flex justify-between items-center gap-5 lg:gap-10">
+
+            <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar"
+                aria-controls="separator-sidebar" type="button"
+                class="inline-flex items-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="relative flex-1">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-main"></i>
+                <input type="search" placeholder="Search..."
+                    class="px-4 pl-12 w-full border-gray-300 bg-gray-50 outline-none focus:outline-none focus:border-gray-400 rounded-full lg:max-w-[70%]">
+            </div>
+
+            <div class="flex gap-5 justify-between items-center">
+                <a href="#">
+                    <img src="./imgs/notifications.svg">
+                </a>
+                <a href="#">
+                    <img src="./imgs/profile-pic.png">
+                </a>
+            </div>
+        </header>
+
+
+
+
+        <!-- Modal Toggle Button -->
+        <button data-modal-target="static-modal-post" data-modal-toggle="static-modal-post"
+            class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+            Toggle modal
+        </button>
+
+        <!-- Main Modal -->
+        <div id="static-modal-post" data-modal-backdrop="static" tabindex="-1" aria-hidden="true"
+            class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full mx-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+            <div class="relative p-4 w-full max-w-[531px] max-h-full">
+                <!-- Modal Content -->
+                <div class="relative bg-white rounded-lg shadow">
+                    <!-- Modal Header -->
+                    <div class="flex items-center justify-between px-4 md:px-5 pt-4 rounded-t border-gray-600">
+                        <button type="button"
+                            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+                            data-modal-hide="static-modal-post">
+                            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 14 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                            </svg>
+                            <span class="sr-only">Close modal</span>
+                        </button>
+                    </div>
+
+                    <!-- Modal Title -->
+                    <div class="flex items-center justify-center -mt-5 mb-10">
+                        <span class="text-center text-[#434343]">Service Quality Evaluation</span>
+                    </div>
+
+                    <!-- Form Steps Container -->
+                    <div class="max-w-md mx-auto px-5">
+                        <!-- Step 1 -->
+                        <div id="step-1" class="step flex flex-col gap-6">
+                            <!-- Consultant Name -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Consultant's Name:
+                                </label>
+                                <input readonly value="youssef mohamed"
+                                    class="block w-full h-[46px] p-2.5 text-sm text-gray-900 rounded-[6px] bg-[#E4E4E4] border-0 focus:ring-gray-900 focus:border-gray-900">
+                            </div>
+
+                            <!-- Consultation Type -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Type of Consultation:
+                                </label>
+                                <input readonly value="youssef mohamed"
+                                    class="block w-full h-[46px] p-2.5 text-sm text-gray-900 rounded-[6px] bg-[#E4E4E4] border-0 focus:ring-gray-900 focus:border-gray-900">
+                            </div>
+
+                            <!-- Service Quality Rating -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Quality of Service Provided:
+                                </label>
+                                <div class="container">
+                                    <div class="feedback">
+                                        <div class="rating">
+                                            <input type="radio" name="rating" id="rating-5">
+                                            <label for="rating-5"></label>
+                                            <input type="radio" name="rating" id="rating-4">
+                                            <label for="rating-4"></label>
+                                            <input type="radio" name="rating" id="rating-3">
+                                            <label for="rating-3"></label>
+                                            <input type="radio" name="rating" id="rating-2">
+                                            <label for="rating-2"></label>
+                                            <input type="radio" name="rating" id="rating-1">
+                                            <label for="rating-1"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Session Benefit Rating -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    How do you rate your benefit from the session(s)?
+                                </label>
+                                <div class="container">
+                                    <div class="feedback">
+                                        <div class="rating">
+                                            <input type="radio" name="rating" id="rating-5">
+                                            <label for="rating-5"></label>
+                                            <input type="radio" name="rating" id="rating-4">
+                                            <label for="rating-4"></label>
+                                            <input type="radio" name="rating" id="rating-3">
+                                            <label for="rating-3"></label>
+                                            <input type="radio" name="rating" id="rating-2">
+                                            <label for="rating-2"></label>
+                                            <input type="radio" name="rating" id="rating-1">
+                                            <label for="rating-1"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Treatment Goals -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Were the goals set in the treatment plan appropriate for you?
+                                </label>
+                                <div class="flex items-center gap-5">
+                                    <!-- Yes Option -->
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="treatment_goal" value="yes" class="hidden peer">
+                                        <div
+                                            class="w-5 h-5 rounded-full border-2 border-[#F5773A] peer-checked:bg-[#F5773A] peer-checked:border-[#F5773A]">
+                                        </div>
+                                        <span class="text-sm text-[#434343] peer-checked:text-[#F5773A]">Yes</span>
+                                    </label>
+
+                                    <!-- No Option -->
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="treatment_goal" value="no" class="hidden peer">
+                                        <div
+                                            class="w-5 h-5 rounded-full border-2 border-[#F5773A] peer-checked:bg-[#F5773A] peer-checked:border-[#F5773A]">
+                                        </div>
+                                        <span class="text-sm text-[#434343] peer-checked:text-[#F5773A]">No</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div id="step-2" class="step flex flex-col gap-6 hidden">
+                            <!-- Knowledge Rating -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Consultant's Knowledge of the Topic:
+                                </label>
+                                <div class="container">
+                                    <div class="feedback">
+                                        <div class="rating">
+                                            <input type="radio" name="rating" id="rating-5">
+                                            <label for="rating-5"></label>
+                                            <input type="radio" name="rating" id="rating-4">
+                                            <label for="rating-4"></label>
+                                            <input type="radio" name="rating" id="rating-3">
+                                            <label for="rating-3"></label>
+                                            <input type="radio" name="rating" id="rating-2">
+                                            <label for="rating-2"></label>
+                                            <input type="radio" name="rating" id="rating-1">
+                                            <label for="rating-1"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Communication Rating -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Consultant's Communication Style:
+                                </label>
+                                <div class="container">
+                                    <div class="feedback">
+                                        <div class="rating">
+                                            <input type="radio" name="rating" id="rating-5">
+                                            <label for="rating-5"></label>
+                                            <input type="radio" name="rating" id="rating-4">
+                                            <label for="rating-4"></label>
+                                            <input type="radio" name="rating" id="rating-3">
+                                            <label for="rating-3"></label>
+                                            <input type="radio" name="rating" id="rating-2">
+                                            <label for="rating-2"></label>
+                                            <input type="radio" name="rating" id="rating-1">
+                                            <label for="rating-1"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Solutions Rating -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Consultant's Ability to Provide Suitable Solutions:
+                                </label>
+                                <div class="container">
+                                    <div class="feedback">
+                                        <div class="rating">
+                                            <input type="radio" name="rating" id="rating-5">
+                                            <label for="rating-5"></label>
+                                            <input type="radio" name="rating" id="rating-4">
+                                            <label for="rating-4"></label>
+                                            <input type="radio" name="rating" id="rating-3">
+                                            <label for="rating-3"></label>
+                                            <input type="radio" name="rating" id="rating-2">
+                                            <label for="rating-2"></label>
+                                            <input type="radio" name="rating" id="rating-1">
+                                            <label for="rating-1"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Listening Skills -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Did you feel that the consultant was listening to you attentively?
+                                </label>
+                                <div class="flex items-center gap-5">
+                                    <!-- Yes Option -->
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="listening" value="yes" class="hidden peer">
+                                        <div
+                                            class="w-5 h-5 rounded-full border-2 border-[#F5773A] peer-checked:bg-[#F5773A] peer-checked:border-[#F5773A]">
+                                        </div>
+                                        <span class="text-sm text-[#434343] peer-checked:text-[#F5773A]">Yes</span>
+                                    </label>
+
+                                    <!-- No Option -->
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="listening" value="no" class="hidden peer">
+                                        <div
+                                            class="w-5 h-5 rounded-full border-2 border-[#F5773A] peer-checked:bg-[#F5773A] peer-checked:border-[#F5773A]">
+                                        </div>
+                                        <span class="text-sm text-[#434343] peer-checked:text-[#F5773A]">No</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div id="step-3" class="step flex flex-col gap-6 hidden">
+                            <!-- Improvements -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    What aspects could be improved?
+                                </label>
+                                <textarea placeholder="(Please specify)"
+                                    class="w-full bg-[#EAEAEA] rounded-[6px] min-h-[170px] border-0 p-3"></textarea>
+                            </div>
+
+                            <!-- Additional Comments -->
+                            <div>
+                                <label class="block mb-2 text-sm text-[#434343]">
+                                    Any additional comments or suggestions?
+                                </label>
+                                <textarea placeholder="(Please specify)"
+                                    class="w-full bg-[#EAEAEA] rounded-[6px] min-h-[170px] border-0 p-3"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 (Success) -->
+                        <div id="step-4" class="step flex flex-col items-center justify-center w-full gap-5 hidden">
+                            <span class="text-[17px] font-[500] text-[#F5773A]">
+                                Form submitted successfully
+                            </span>
+                           <img src="imgs/cong.svg" alt="">
+                            <span class="text-[16px] font-[500] text-[#434343] w-full text-center">
+                                Thank you for your contribution to improving the quality of Estisharati Services
+                            </span>
+                            <button
+                                class="w-full h-[50px] rounded-full font-medium bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px] my-10">
+                                OK
+                            </button>
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <div id="navigation" class="flex items-center justify-between max-w-md mx-auto py-10 gap-10">
+                            <button id="prev-step"
+                                class="w-full h-[50px] rounded-full font-medium bg-transparent border border-gray-700 text-[16px]">
+                                Back
+                            </button>
+                            <button id="next-step"
+                                class="w-full h-[50px] rounded-full font-medium bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px]">
+                                Next
+                            </button>
+                            <button id="submit-step"
+                                class="hidden w-full h-[50px] rounded-full font-medium bg-gradient-to-r from-[#DD5000] to-[#FE9E2C] text-white text-[16px]">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScript for Modal Navigation -->
+        <script>
+            // Initialize current step
+            let currentStep = 1;
+
+            // Get DOM elements
+            const steps = document.querySelectorAll(".step");
+            const prevBtn = document.getElementById("prev-step");
+            const nextBtn = document.getElementById("next-step");
+            const submitBtn = document.getElementById("submit-step");
+            const navigation = document.getElementById("navigation");
+
+            // Function to show specific step
+            const showStep = (step) => {
+                // Hide all steps and show current step
+                steps.forEach((stepDiv, index) => {
+                    stepDiv.classList.toggle("hidden", index + 1 !== step);
+                });
+
+                // Show/hide navigation buttons based on current step
+                prevBtn.classList.toggle("hidden", step === 1 || step === steps.length);
+                nextBtn.classList.toggle("hidden", step >= steps.length - 1);
+                submitBtn.classList.toggle("hidden", step !== steps.length - 1);
+
+                // Hide navigation in final step
+                if (step === steps.length) {
+                    navigation.classList.add("hidden");
+                } else {
+                    navigation.classList.remove("hidden");
+                }
+            };
+
+            // Event Listeners for navigation
+            prevBtn.addEventListener("click", () => {
+                if (currentStep > 1) {
+                    currentStep--;
+                    showStep(currentStep);
+                }
+            });
+
+            nextBtn.addEventListener("click", () => {
+                if (currentStep < steps.length - 1) {
+                    currentStep++;
+                    showStep(currentStep);
+                }
+            });
+
+            submitBtn.addEventListener("click", () => {
+                currentStep++;
+                showStep(currentStep);
+            });
+
+            // Show initial step
+            showStep(currentStep);
+        </script>
+
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
